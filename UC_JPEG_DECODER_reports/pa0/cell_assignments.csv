@@ -1,0 +1,24 @@
+Instructions:
+  1. Load this file into Excel(tm)
+  2. Select line 6
+  3. Select Data->Filter
+  4. Filter on columns L0 and to the right to explore assignments for hierarchical modules
+NAME,LUT,DFF,BRAM,DSP,PINS,BIN,L0,L1,L2
+u_jpeg_dht,683,14,0,0,36,FB1.uB,u_jpeg_dht
+u_jpeg_mcu_proc,498,186,0,0,137,FB1.uB,u_jpeg_mcu_proc
+u_jpeg_input,221,120,0,0,106,FB1.uB,u_jpeg_input
+u_jpeg_bitbuffer,177,75,0,1,54,FB1.uB,u_jpeg_bitbuffer
+u_jpeg_output.u_ram_cr,106,58,1,0,108,FB1.uB,u_jpeg_output,u_ram_cr
+u_jpeg_output.u_ram_cb,101,57,1,0,107,FB1.uB,u_jpeg_output,u_ram_cb
+u_jpeg_dqt,24,84,1,1,134,FB1.uB,u_jpeg_dqt
+u_jpeg_output.u_ram_y,52,52,1,0,107,FB1.uB,u_jpeg_output,u_ram_y
+u_jpeg_idct.u_transpose.u_ram3,23,33,0,0,77,FB1.uB,u_jpeg_idct,u_transpose,u_ram3
+u_jpeg_idct.u_transpose.u_ram1,23,33,0,0,77,FB1.uB,u_jpeg_idct,u_transpose,u_ram1
+u_jpeg_idct.u_transpose.u_ram0,23,33,0,0,77,FB1.uB,u_jpeg_idct,u_transpose,u_ram0
+u_jpeg_idct.u_id_fifo,43,10,0,0,69,FB1.uB,u_jpeg_idct,u_id_fifo
+u_jpeg_idct.u_transpose.u_ram2,21,31,0,0,76,FB1.uB,u_jpeg_idct,u_transpose,u_ram2
+u_jpeg_output.u_info,33,10,0,0,66,FB1.uB,u_jpeg_output,u_info
+u_jpeg_idct.u_input.u_ram1,16,17,0,0,47,FB1.uB,u_jpeg_idct,u_input,u_ram1
+u_jpeg_idct.u_input.u_ram3,16,17,0,0,47,FB1.uB,u_jpeg_idct,u_input,u_ram3
+u_jpeg_idct.u_input.u_ram0,16,17,0,0,47,FB1.uB,u_jpeg_idct,u_input,u_ram0
+u_jpeg_idct.u_input.u_ram2,16,17,0,0,47,FB1.uB,u_jpeg_idct,u_input,u_ram2

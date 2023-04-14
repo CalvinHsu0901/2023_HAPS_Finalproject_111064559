@@ -1,0 +1,903 @@
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+Platform = amd64
+Platform = amd64
+Platform = amd64
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+
+Please use 'source' command instead of run this csh directly
+USAGE:
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [version]
+  source /home/m111/m111064559/synopsys_haps/lab/Final/vcs_dut.csh [@ver | -help]
+
+Platform = amd64
+Calibre integrated...
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 13 11:02:12 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './src/top.v'
+Parsing design file './src/jpeg_bitbuffer.v'
+Parsing design file './src/jpeg_dht.v'
+Parsing design file './src/jpeg_dht_std_cx_ac.v'
+Parsing design file './src/jpeg_dht_std_cx_dc.v'
+Parsing design file './src/jpeg_dht_std_y_ac.v'
+Parsing design file './src/jpeg_dht_std_y_dc.v'
+Parsing design file './src/jpeg_dqt.v'
+Parsing design file './src/jpeg_idct.v'
+Parsing design file './src/jpeg_idct_fifo.v'
+Parsing design file './src/jpeg_idct_ram.v'
+Parsing design file './src/jpeg_idct_ram_dp.v'
+Parsing design file './src/jpeg_idct_transpose.v'
+Parsing design file './src/jpeg_idct_transpose_ram.v'
+Parsing design file './src/jpeg_idct_x.v'
+Parsing design file './src/jpeg_idct_y.v'
+Parsing design file './src/jpeg_input.v'
+Parsing design file './src/jpeg_mcu_id.v'
+Parsing design file './src/jpeg_mcu_proc.v'
+Parsing design file './src/jpeg_output.v'
+Parsing design file './src/jpeg_output_cx_ram.v'
+Parsing design file './src/jpeg_output_fifo.v'
+Parsing design file './src/jpeg_output_y_ram.v'
+CPU time: .136 seconds to compile
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+Doing common elaboration 
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 13 11:02:13 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+UNIZFE: Got HW top: top
+Top Level Modules:
+       top
+TimeScale is 1 ns / 1 ns
+Info: Invoking Simon...
+[UFE_FLOW]: RhinoDB Rtl Population based on design traversal started
+[UFE_FLOW]: Trying to load NameDB library without path: libNameDB.so
+Info: Simon VCS Start
+                                SIMON
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 13 11:02:13 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Note-[SM_NATIVE_FORCE_ON] Native force is ON
+  Simon native force/release handling is ON
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '16' child processes with process ids '12451 12452 12453 12454 12455 
+  12456 12457 12458 12459 12460 12461 12463 12464 12465 12466 12467'
+  to perform synthesis of total '25' modules in parallel.
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: top Parameterized Name: top
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_input Parameterized Name: jpeg_input
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'top' has 7 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct Parameterized Name: jpeg_idct
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_idct' has 5 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dqt Parameterized Name: jpeg_dqt
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dht_0000 Parameterized Name: jpeg_dht_0000
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_dht_0000' has 4 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dht_std_y_ac Parameterized Name: jpeg_dht_std_y_ac
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dht_std_y_dc Parameterized Name: jpeg_dht_std_y_dc
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dht_std_cx_dc Parameterized Name: jpeg_dht_std_cx_dc
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_mcu_proc Parameterized Name: jpeg_mcu_proc
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output Parameterized Name: jpeg_output
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_dht_std_cx_ac Parameterized Name: jpeg_dht_std_cx_ac
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_bitbuffer Parameterized Name: jpeg_bitbuffer
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_mcu_proc' has 1 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_fifo Parameterized Name: jpeg_idct_fifo
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_output' has 4 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output_y_ram Parameterized Name: jpeg_output_y_ram
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output_cx_ram Parameterized Name: jpeg_output_cx_ram
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_output_y_ram' has 1 instances
+  
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_output_cx_ram' has 1 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output_fifo Parameterized Name: jpeg_output_fifo
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_transpose Parameterized Name: jpeg_idct_transpose
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_mcu_id Parameterized Name: jpeg_mcu_id
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_ram_dp Parameterized Name: jpeg_idct_ram_dp
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_idct_transpose' has 4 instances
+  
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_transpose_ram Parameterized Name: 
+  jpeg_idct_transpose_ram
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output_y_ram_ram_dp_512_9 Parameterized Name: 
+  jpeg_output_y_ram_ram_dp_512_9
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_output_cx_ram_ram_dp_256_8 Parameterized Name: 
+  jpeg_output_cx_ram_ram_dp_256_8
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_x Parameterized Name: jpeg_idct_x
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_y Parameterized Name: jpeg_idct_y
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '3' with process id '12454'
+  is done with synthesis of total '2' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '12451'
+  is done with synthesis of total '3' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.06 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.01,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '10' with process id '12461'
+  is done with synthesis of total '3' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '12455'
+  is done with synthesis of total '3' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '6' with process id '12457'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: jpeg_idct_ram Parameterized Name: jpeg_idct_ram
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '8' with process id '12459'
+  is done with synthesis of total '2' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.01,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'jpeg_idct_ram' has 4 instances
+  
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '14' with process id '12466'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '12452'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.03 sec
+  SIMON Child Wall-Clock Time : 0.06 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.01,0.01,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '5' with process id '12456'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '7' with process id '12458'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.00,0.01,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '2' with process id '12453'
+  is done with synthesis of total '2' modules
+  SIMON Child CPU Time        : 0.04 sec
+  SIMON Child Wall-Clock Time : 0.06 sec
+  SIMON Child Current Memory  : 386 MB
+  SIMON Child Peak Memory     : 386 MB
+  SIMON Distribution          : 0.01,0.01,0.01,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '9' with process id '12460'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.05 sec
+  SIMON Child Wall-Clock Time : 0.06 sec
+  SIMON Child Current Memory  : 383 MB
+  SIMON Child Peak Memory     : 383 MB
+  SIMON Distribution          : 0.01,0.00,0.01,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '12' with process id '12464'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.01,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '13' with process id '12465'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.03 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 380 MB
+  SIMON Child Peak Memory     : 380 MB
+  SIMON Distribution          : 0.01,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '11' with process id '12463'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.04 sec
+  SIMON Child Wall-Clock Time : 0.06 sec
+  SIMON Child Current Memory  : 383 MB
+  SIMON Child Peak Memory     : 383 MB
+  SIMON Distribution          : 0.01,0.01,0.01,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '15' with process id '12467'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.03 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.01,0.01,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_PF] Processing finished
+  Processing of all modules finished
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '16' child processes with process ids '12469 12470 12471 12472 12474 
+  12476 12477 12478 12479 12480 12481 12482 12483 12484 12485 12486'
+  to perform post-processing optimizations of total '25' modules in parallel.
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_dht_0000
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_dht_std_cx_dc
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_dht_std_y_ac
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_dht_std_y_dc
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_input
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_dht_std_cx_ac
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct_ram_dp
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct_ram
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct_x
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_idct_transpose_ram
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_idct_transpose
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct_y
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct_fifo
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_idct
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_dqt
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_output_y_ram_ram_dp_512_9
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_output_y_ram
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_output_cx_ram_ram_dp_256_8
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_idct_ram_dp.v, 32
+  Inferred memory statistics for module 'jpeg_idct_ram_dp' (Instances: 4)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram | 1024(64x16) |TP:4 |RP:2(A:2,S:0) |WP:2(A:0,S:2) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_idct_transpose_ram.v, 32
+  Inferred memory statistics for module 'jpeg_idct_transpose_ram' (Instances: 
+  4)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram | 1024(32x32) |TP:4 |RP:2(A:2,S:0) |WP:2(A:0,S:2) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_idct_fifo.v, 32
+  Inferred memory statistics for module 'jpeg_idct_fifo' (Instances: 1)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram_q | 256(8x32) |TP:2 |RP:1(A:1,S:0) |WP:1(A:0,S:1) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: 
+  jpeg_output_cx_ram
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_output_y_ram.v, 192
+  Inferred memory statistics for module 'jpeg_output_y_ram_ram_dp_512_9' 
+  (Instances: 1)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram | 16384(512x32) |TP:4 |RP:2(A:2,S:0) |WP:2(A:0,S:2) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_dqt.v, 32
+  Inferred memory statistics for module 'jpeg_dqt' (Instances: 1)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | table_dqt_q | 2048(256x8) |TP:2 |RP:1(A:1,S:0) |WP:1(A:0,S:1) |R:None 
+  |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_output_cx_ram.v, 488
+  Inferred memory statistics for module 'jpeg_output_cx_ram_ram_dp_256_8' 
+  (Instances: 2)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram | 8192(256x32) |TP:4 |RP:2(A:2,S:0) |WP:2(A:0,S:2) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_SKIPPED] Arrays not inferred as memory
+./src/jpeg_idct_x.v, 32
+  Following arrays are not inferred as memory in module 'jpeg_idct_x'
+  ------------------------------------------------------------------------------
+  A memory is not inferred from 'block_out' (size:256) because all writes have
+  constant address. Total: 9 (R:1, W:8)
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_MEM_SKIPPED] Arrays not inferred as memory
+./src/jpeg_idct_y.v, 32
+  Following arrays are not inferred as memory in module 'jpeg_idct_y'
+  ------------------------------------------------------------------------------
+  A memory is not inferred from 'block_out' (size:256) because all writes have
+  constant address. Total: 9 (R:1, W:8)
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_output_fifo
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_output
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_bitbuffer
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_mcu_id
+
+
+Note-[SM_MEM_INFO] Module has inferred memories
+./src/jpeg_output_fifo.v, 32
+  Inferred memory statistics for module 'jpeg_output_fifo' (Instances: 1)
+  ------------------------------------------------------------------------------
+  |Name |Size |TotalPorts |ReadPorts |WritePorts |Reset |Initial |
+  ------------------------------------------------------------------------------
+  | ram_q | 256(8x32) |TP:2 |RP:1(A:1,S:0) |WP:1(A:0,S:1) |R:None |I:No |
+  ------------------------------------------------------------------------------
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: jpeg_mcu_proc
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: top
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '12' with process id '12483'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '12470'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '7' with process id '12478'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '15' with process id '12486'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '12469'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '3' with process id '12472'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '14' with process id '12485'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:13 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '5' with process id '12476'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '8' with process id '12479'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '11' with process id '12482'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.03 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '12474'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '6' with process id '12477'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '9' with process id '12480'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '10' with process id '12481'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '2' with process id '12471'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '13' with process id '12484'
+  is done with post-processing optimizations of total '2' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 381 MB
+  SIMON Child Peak Memory     : 381 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 13 11:02:14 2023
+  .
+
+
+Note-[SM_POF] Processing finished
+  Post-processing optimizations of all modules finished
+
+
+Warning-[SM_INFRA_BB_LIST] Infra blackbox module list
+  List of tool's instrumented blackbox modules (6): 
+  __ZEBU_mem_a256_d32_ra_ra_ws_ws __ZEBU_mem_a256_d8_ra_ws 
+  __ZEBU_mem_a32_d32_ra_ra_ws_ws __ZEBU_mem_a512_d32_ra_ra_ws_ws 
+  __ZEBU_mem_a64_d16_ra_ra_ws_ws __ZEBU_mem_a8_d32_ra_ws
+
+=======================================================
+VCS pre-synth CPU Time        : 0.27 sec
+VCS pre-synth Wall-Clock Time : 0.00 sec
+VCS pre-synth Current Memory  : 369 MB
+SIMON Master CPU Time         : 0.08 sec
+SIMON Total  CPU Time         : 0.88 sec
+SIMON Master Wall-Clock Time  : 0.41 sec
+SIMON Master Current Memory   : 381 MB
+SIMON Master Peak Memory      : 381 MB
+SIMON CGroup Memory           : 572 MB
+SIMON Distribution            : 0.09,0.05,0.03,0.00 sec
+=======================================================
+Info: Simon VCS Finished
+Info: Simon call complete 
+Info: Exiting after Simon Analysis 
+CPU time: 1.200 seconds to compile

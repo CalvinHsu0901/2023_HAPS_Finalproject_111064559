@@ -1,0 +1,34 @@
+Command: vlogan -full64 -work work -sverilog -f vlog_inputs.txt -l vlogan.log
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 13 11:02:12 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './src/top.v'
+Parsing design file './src/jpeg_bitbuffer.v'
+Parsing design file './src/jpeg_dht.v'
+Parsing design file './src/jpeg_dht_std_cx_ac.v'
+Parsing design file './src/jpeg_dht_std_cx_dc.v'
+Parsing design file './src/jpeg_dht_std_y_ac.v'
+Parsing design file './src/jpeg_dht_std_y_dc.v'
+Parsing design file './src/jpeg_dqt.v'
+Parsing design file './src/jpeg_idct.v'
+Parsing design file './src/jpeg_idct_fifo.v'
+Parsing design file './src/jpeg_idct_ram.v'
+Parsing design file './src/jpeg_idct_ram_dp.v'
+Parsing design file './src/jpeg_idct_transpose.v'
+Parsing design file './src/jpeg_idct_transpose_ram.v'
+Parsing design file './src/jpeg_idct_x.v'
+Parsing design file './src/jpeg_idct_y.v'
+Parsing design file './src/jpeg_input.v'
+Parsing design file './src/jpeg_mcu_id.v'
+Parsing design file './src/jpeg_mcu_proc.v'
+Parsing design file './src/jpeg_output.v'
+Parsing design file './src/jpeg_output_cx_ram.v'
+Parsing design file './src/jpeg_output_fifo.v'
+Parsing design file './src/jpeg_output_y_ram.v'
+CPU time: .136 seconds to compile

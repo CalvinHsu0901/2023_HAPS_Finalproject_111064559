@@ -1,0 +1,51 @@
+@S |Design Info Report
+Found 21 RAM/ROM instances in the design
+Name                                                                     Type     Size(width*depth)     No of RD ports     No of WR ports
+-----------------------------------------------------------------------------------------------------------------------------------------
+un1_state_q_2 (in view: work.jpeg_input(verilog))                        rom      1 * 2^5               1                  1             
+un1_state_q_1 (in view: work.jpeg_input(verilog))                        rom      1 * 2^5               1                  1             
+un1_state_q (in view: work.jpeg_input(verilog))                          rom      1 * 2^5               1                  1             
+ram_q[31:0] (in view: work.jpeg_output_fifo(verilog))                    ram1     32 * 8                1                  1             
+ram[31:0] (in view: work.jpeg_output_y_ram_ram_dp_512_9(verilog))        ram1     32 * 512              1                  1             
+cx_rd_ptr_r[5:0] (in view: work.jpeg_output_cx_ram_0(verilog))           rom      6 * 2^8               1                  1             
+ram[31:0] (in view: work.jpeg_output_cx_ram_ram_dp_256_8_0(verilog))     ram1     32 * 256              1                  1             
+cx_rd_ptr_r[5:0] (in view: work.jpeg_output_cx_ram(verilog))             rom      6 * 2^8               1                  1             
+ram[15:0] (in view: work.jpeg_idct_ram_dp_0(verilog))                    ram1     16 * 64               1                  1             
+ram[31:0] (in view: work.jpeg_idct_transpose_ram_0_0(verilog))           ram1     32 * 32               1                  1             
+ram[31:0] (in view: work.jpeg_idct_transpose_ram_0(verilog))             ram1     32 * 32               1                  1             
+outport_idx_o_1[5:0] (in view: work.jpeg_idct_y(verilog))                rom      6 * 2^6               1                  1             
+ram_q[31:0] (in view: work.jpeg_idct_fifo(verilog))                      ram1     32 * 8                1                  1             
+table_dqt_q[7:0] (in view: work.jpeg_dqt(verilog))                       ram1     8 * 256               1                  1             
+un1_inport_idx_q[5:0] (in view: work.jpeg_dqt(verilog))                  rom      6 * 2^6               1                  1             
+=========================================================================================================================================
+
+Found 19 Big Multiplier(width >= 10) instances in the design
+Name                                                            Size(width1*width2)
+-----------------------------------------------------------------------------------
+un1_cb_value_w_1[30:0] (in view: work.jpeg_output(verilog))     31 * 13            
+un1_cb_value_w[30:0] (in view: work.jpeg_output(verilog))       31 * 11            
+un11[31:0] (in view: work.jpeg_output(verilog))                 13 * 32            
+un10[31:0] (in view: work.jpeg_output(verilog))                 14 * 32            
+un1_mul4_a[27:0] (in view: work.jpeg_idct_x(verilog))           28 * 9             
+un1_mul3_a[30:0] (in view: work.jpeg_idct_x(verilog))           31 * 12            
+un1_mul2_a[30:0] (in view: work.jpeg_idct_x(verilog))           31 * 12            
+un1_mul1_a[31:0] (in view: work.jpeg_idct_x(verilog))           32 * 13            
+un1_mul0_a[31:0] (in view: work.jpeg_idct_x(verilog))           32 * 13            
+un13[31:0] (in view: work.jpeg_idct_x(verilog))                 9 * 32             
+un12[31:0] (in view: work.jpeg_idct_x(verilog))                 9 * 32             
+un1_mul4_a[27:0] (in view: work.jpeg_idct_y(verilog))           28 * 9             
+un1_mul3_a[30:0] (in view: work.jpeg_idct_y(verilog))           31 * 12            
+un1_mul2_a[30:0] (in view: work.jpeg_idct_y(verilog))           31 * 12            
+un1_mul1_a[31:0] (in view: work.jpeg_idct_y(verilog))           32 * 13            
+un1_mul0_a[31:0] (in view: work.jpeg_idct_y(verilog))           32 * 13            
+un13[31:0] (in view: work.jpeg_idct_y(verilog))                 9 * 32             
+un12[31:0] (in view: work.jpeg_idct_y(verilog))                 9 * 32             
+un1_inport_data_q[15:0] (in view: work.jpeg_dqt(verilog))       16 * 9             
+===================================================================================
+
+Found 0 Black Box instances in the design
+Found 0 hierarchies with high no of latches (>10) in the design
+
+
+####### End of Design Info Report #########
+

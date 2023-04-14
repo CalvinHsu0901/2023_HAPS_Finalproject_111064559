@@ -1,0 +1,174 @@
+#Build: HAPS (R) ProtoCompiler 100 R-2020.12-SP1-1, Build 198R, Apr  8 2022
+#install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+#OS: Linux 
+#Hostname: ws26
+
+Synopsys Planner, version ui202012pcp4, Build 198R, built Apr  8 2022
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|sg0
+Synopsys Partition Build, Version ui202012pcp4, Build 198R, Built Apr  8 2022 21:19:10, @4216327
+
+
+Reading design file (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 197MB)
+
+
+Done reading design file (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 220MB peak: 220MB)
+
+
+Checking HSTDM assignments (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 325MB peak: 325MB)
+
+
+Replicating CPM modules (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 325MB peak: 325MB)
+
+
+Applying trace delay (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 325MB peak: 325MB)
+
+
+Writing SLP files at /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 325MB peak: 325MB)
+
+
+Finished writing SLP files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 325MB peak: 325MB)
+
+
+Writing partitioned netlist file (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 325MB peak: 325MB)
+
+
+Finished writing partitioned netlist file (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 325MB peak: 325MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 14 21:58:27 2023
+
+###########################################################]
+# Fri Apr 14 21:58:27 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|sg0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+
+Reading constraint file: /home/m111/m111064559/synopsys_haps/lab/Final/design.fdc
+@N: MF914 |Option synthesis_strategy=routability is enabled. 
+@N: MF248 |Running in 64-bit mode.
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 279MB peak: 279MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 279MB peak: 279MB)
+
+
+SLP Mapper running in Multiprocessing mode
+Maximum number of parallel jobs set to 8
+Multiprocessing started at : Fri Apr 14 21:58:28 2023
+Mapping FB1_uB as a separate process
+Mapping FB1_uA as a separate process
+MCP Status: 2 jobs running
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 294MB peak: 294MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 296MB peak: 296MB)
+
+NConnInternalConnection caching is on
+
+Starting umr automation. (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 821MB peak: 821MB)
+
+
+Finished umr automation. (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 821MB peak: 821MB)
+
+@N: MF286 |Writing single-chip design and constraint files...
+
+Start of writing single-chip design and constraint files. (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 821MB peak: 821MB)
+
+@N| Using syn_chip_id 1 on FPGA FB1.uB.
+@N| Using syn_chip_id 0 on FPGA FB1.uA.
+@N:See /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/system_generate/sg0/board_iostd_report.txt for detailed report about the IO Standards
+@LOG: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/system_generate/sg0/board_iostd_report.txt
+Writing constraint files for FB1.uB
+@N: BW135 |Skipping creation of system level timing setup constraint file slp_system_timing.fdc since the file already exists
+
+Finished writing single-chip design and constraint files. (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 821MB peak: 821MB)
+
+
+Finished mapping FB1_uB
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 276MB peak: 276MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 278MB peak: 278MB)
+
+NConnInternalConnection caching is on
+@N: BN362 :|Removing sequential instance aptn_reset_sync_rst_i (in view: TraceBuildLib.FB1_uA_dut(internal)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance aptn_reset_sync_rst_i_0 (in view: TraceBuildLib.FB1_uA_dut(internal)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance aptn_reset_sync_rst_i_1 (in view: TraceBuildLib.FB1_uA_dut(internal)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Starting umr automation. (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 811MB peak: 811MB)
+
+
+Making connections to hyper_source modules
+
+Finished umr automation. (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 811MB peak: 811MB)
+
+@N: MF286 |Writing single-chip design and constraint files...
+
+Start of writing single-chip design and constraint files. (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 811MB peak: 811MB)
+
+@N| Using syn_chip_id 1 on FPGA FB1.uB.
+@N| Using syn_chip_id 0 on FPGA FB1.uA.
+@N:See /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/system_generate/sg0/board_iostd_report.txt for detailed report about the IO Standards
+@LOG: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/system_generate/sg0/board_iostd_report.txt
+Writing constraint files for FB1.uA
+@N: BW136 |Creating template for system level timing setup file slp_system_timing.fdc
+
+Finished writing single-chip design and constraint files. (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 1243MB peak: 1243MB)
+
+
+Finished mapping FB1_uA
+Multiprocessing finished at : Fri Apr 14 21:58:36 2023
+Multiprocessing took 0h:00m:07s realtime, 0h:00m:13s cputime
+
+Complete writing single-FPGAs (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:13s; Memory used current: 299MB peak: 299MB)
+
+
+Complete writing final srp (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:13s; Memory used current: 299MB peak: 299MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:13s cputime
+# Fri Apr 14 21:58:36 2023
+
+###########################################################]

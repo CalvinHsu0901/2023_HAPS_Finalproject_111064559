@@ -1,0 +1,387 @@
+
+                          HAPS (R) ProtoCompiler 100 
+
+               Version R-2020.12-SP1-1 for RHEL64 - Apr 08, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/linux_a_64/mbin/protocompiler
+Install:     /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+Hostname:    ws26
+Date:        Fri Apr 14 21:03:58 2023
+Version:     R-2020.12-SP1-1
+
+Arguments:   -product protocompiler100
+ProductType: protocompiler100
+
+For command descriptions, use the following tools:
+- For syntax statements, enter "help  <command_name>"  in the Tcl shell
+- For detailed descriptions:
+   1. Select "Help->Help Topics"
+   2. Click the Search tab
+   3. Enter <command_name>
+
+
+License checkout: ProtoCompiler100
+License: ProtoCompiler100 from server ws26 
+Licensed Vendor: All FPGA
+
+External Tools          Supported Version       Install Environment Variable
+Vivado                  2020.1                  XILINX_VIVADO=/usr/cadtool/csr5306/synopsys/xilinx_vivado/2021.1-ep9/tools/XILINX_VIVADO
+Formality               2020.09-SP5             FORMALITY=""
+Verdi                   R-2020.12-SP2-6         VERDI_HOME=/usr/cad/synopsys/verdi/2022.06
+VC Formal               2020.12-SP2-6           VC_STATIC_HOME=""
+Confpro                 2020.12-SP1-1           HAPS_INSTALL_DIR=/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+Design Compiler         2020.09-SP5             DC_ROOT=""
+Design Ware             2020.09-SP5-5           SYNOPSYS=/usr/cad/synopsys/icc/cur
+  (Please make sure that DC_ROOT and SYNOPSYS points to the same location.)
+VCS                     2020.03-SP2-10          VCS_HOME=/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405
+
+
+Note: Standard compile is no longer the recommended flow. Use Unified Compile for future projects.
+/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER
+root
+0
+partition is not a valid task for current data state root. Legal states to run this task are {link_pre_partition, pre_partition}
+pre_partition is not a valid task for current data state root. Legal states to run this task are {compile}
+File already added: "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb"
+run compile -ucdb top_ucdb -out c0
+Running: compile_flow in foreground
+
+
+Running Flow: compile_flow (Compile HDL/EDIF) on datastate|c0
+# Fri Apr 14 21:54:14 2023
+
+Running Flow: main_compile_processes (Main Compile Processes) on datastate|c0
+# Fri Apr 14 21:54:14 2023
+
+Running: identify_db_generator (Identify Database Generator) on datastate|c0
+# Fri Apr 14 21:54:14 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_identify_db_generator.srr
+
+identify_db_generator completed
+# Fri Apr 14 21:54:15 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running Parallel Flow: compiler_db (Compile with Debug) on datastate|c0
+# Fri Apr 14 21:54:15 2023
+
+Running: compiler (Compile Input) on datastate|c0
+# Fri Apr 14 21:54:15 2023
+Imported /home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/vcs.xcui
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/linker.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_comp.rt.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/compile_summary.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_compiler.srr
+
+compiler completed
+# Fri Apr 14 21:54:29 2023
+
+Return Code: 0
+Run Time:00h:00m:14s
+Complete: Compile with Debug on datastate|c0
+Complete: Main Compile Processes on datastate|c0
+
+Running Parallel Flow: post_compile_processes (Post Compile Processes) on datastate|c0
+# Fri Apr 14 21:54:29 2023
+
+Running: multi_srs_gen (Multi-srs Generator) on datastate|c0
+# Fri Apr 14 21:54:29 2023
+
+Running Flow: post_compile_optimizations (Post Compile Optimizations) on datastate|c0
+# Fri Apr 14 21:54:29 2023
+
+Running: global_optimizer (Global Optimizer) on datastate|c0
+# Fri Apr 14 21:54:29 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_multi_srs_gen.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+
+multi_srs_gen completed
+# Fri Apr 14 21:54:29 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_multi_srs_gen.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+
+global_optimizer completed with warnings
+# Fri Apr 14 21:54:35 2023
+
+Return Code: 1
+Run Time:00h:00m:06s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+Complete: Post Compile Optimizations on datastate|c0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+Complete: Post Compile Processes on datastate|c0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+Complete: Compile HDL/EDIF on datastate|c0
+To see "c0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state c0 (use "export file <filename>" to access them):
+  uc.rpt: Unified Compiler Report (OUT OF DATE 11:02:13 Apr 13 2023)
+  top_identify_db_generator.srr: Pre-Instrument Log (21:54:14 Apr 14 2023)
+  modified_modules.txt: File containing list of modified modules for incremental run (21:54:15 Apr 14 2023)
+  linker.rpt: Summary of linker messages for components that did not bind (21:54:22 Apr 14 2023)
+  top_comp.rt.csv: Module Runtime Summary (21:54:22 Apr 14 2023)
+  compile_summary.rpt: Incremental Compiler Summary Report (21:54:24 Apr 14 2023)
+  top_compiler.srr: Compile Log (21:54:25 Apr 14 2023)
+  top_multi_srs_gen.srr: Multi-srs Generator Log (21:54:28 Apr 14 2023)
+  const_out_top.nle: Netlist editing script to propagate constants out of this module. (21:54:34 Apr 14 2023)
+  top_opt.srr: Post compilation optimization Log (21:54:34 Apr 14 2023)
+  top_port_consts.rpt: Constants driving top level ports. (21:54:34 Apr 14 2023)
+VIRTEX UltraScale+ FPGAs
+pp0
+run partition -pcf partition.pcf -out pa0
+Running: partition in foreground
+
+
+Running Flow: partition (Partition) on datastate|pa0
+# Fri Apr 14 21:54:53 2023
+
+Running: auto_partitioner (Auto-Partitioner) on datastate|pa0
+# Fri Apr 14 21:54:53 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/timing_partition.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/cell_assignments.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/partition.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/partition.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/tdm_nonqualified.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/tdm_qualified.rpt
+
+auto_partitioner completed
+# Fri Apr 14 21:55:03 2023
+
+Return Code: 0
+Run Time:00h:00m:10s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/cell_assignments.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/partition.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/partition.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/tdm_nonqualified.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pa0/tdm_qualified.rpt
+Complete: Partition on datastate|pa0
+To see "pa0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state pa0 (use "export file <filename>" to access them):
+  timing_partition.rpt: Multi-hop Path Report (21:55:01 Apr 14 2023)
+  assignments.db: SQL database containing cell assignments and net information (21:55:02 Apr 14 2023)
+  assignments.pcf: Partition Assignment Results (21:55:02 Apr 14 2023)
+  cell_assignments.csv: Assignment CSV File (21:55:02 Apr 14 2023)
+  dissolve_control.pcf: Partition dissolve statements (21:55:02 Apr 14 2023)
+  net_attributes.pcf: User Net Attributes (21:55:02 Apr 14 2023)
+  partition.log: Partition Log (21:55:02 Apr 14 2023)
+  partition.rpt: Partition Report (21:55:02 Apr 14 2023)
+  tdm_nonqualified.rpt: Report of all nets disqualified for TDM (21:55:02 Apr 14 2023)
+  tdm_qualified.rpt: Report of all nets qualified for TDM (21:55:02 Apr 14 2023)
+VIRTEX UltraScale+ FPGAs
+pa0
+pa0
+run system_route -pcf partition.pcf -fdc design.fdc -optimization_priority multi_hop_path -estimate_timing 1 -out sr0
+Running: system_route in foreground
+
+
+Running Flow: system_route (System Router) on datastate|sr0
+# Fri Apr 14 21:57:30 2023
+
+Running: estimate_timing_cpm_job (Timing Estimation) on datastate|sr0
+# Fri Apr 14 21:57:30 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/timing_estimation.log
+
+estimate_timing_cpm_job completed with warnings
+# Fri Apr 14 21:57:58 2023
+
+Return Code: 1
+Run Time:00h:00m:28s
+
+Running: system_router (System Routing and TDM Insertion) on datastate|sr0
+# Fri Apr 14 21:57:58 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/timing_estimation.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/timing_route.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_nonqualified.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_qualified.rpt
+
+system_router completed
+# Fri Apr 14 21:58:06 2023
+
+Return Code: 0
+Run Time:00h:00m:08s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_nonqualified.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_qualified.rpt
+Complete: System Router on datastate|sr0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/system_route.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_nonqualified.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sr0/tdm_qualified.rpt
+To see "sr0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state sr0 (use "export file <filename>" to access them):
+  estimate_timing.est: Estimate Timing .est file (21:57:56 Apr 14 2023)
+  timing_estimation.log: Timing Estimation Log (21:57:57 Apr 14 2023)
+  timing_route.rpt: Multi-hop Path Report (21:58:04 Apr 14 2023)
+  router_constraints.pcf: System-route Trace Assignment Results (21:58:05 Apr 14 2023)
+  system_route.log: System Route Log (21:58:05 Apr 14 2023)
+  system_route.rpt: System Route Report (21:58:05 Apr 14 2023)
+  tdm_nonqualified.rpt: Report of all nets disqualified for TDM (21:58:05 Apr 14 2023)
+  tdm_qualified.rpt: Report of all nets qualified for TDM (21:58:05 Apr 14 2023)
+VIRTEX UltraScale+ FPGAs
+sr0
+Note: Verilog output for system_generate is not supported in Unified Compile flow
+run system_generate -fdc design.fdc -path synthesis_files -out sg0
+Running: system_generate in foreground
+
+
+Running Flow: system_generate (System Generate) on datastate|sg0
+# Fri Apr 14 21:58:25 2023
+
+Running Flow: slp_generate (SLP Generation) on datastate|sg0
+# Fri Apr 14 21:58:25 2023
+
+Running: slp_project_gen (Generate SLP Projects) on datastate|sg0
+# Fri Apr 14 21:58:25 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/system_generate.log
+
+slp_project_gen completed
+# Fri Apr 14 21:58:27 2023
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: slp_mapper (Generate SLP data files) on datastate|sg0
+# Fri Apr 14 21:58:27 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/board_iostd_report.txt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/system_generate.log
+
+slp_mapper completed
+# Fri Apr 14 21:58:36 2023
+
+Return Code: 0
+Run Time:00h:00m:09s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/system_generate.log
+Complete: SLP Generation on datastate|sg0
+
+Running: estimate_timing_job (Estimate Time-Budgets) on datastate|sg0
+# Fri Apr 14 21:58:36 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/system_generate.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/time_budget.log
+
+estimate_timing_job completed
+# Fri Apr 14 21:58:44 2023
+
+Return Code: 0
+Run Time:00h:00m:08s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/time_budget.log
+Complete: System Generate on datastate|sg0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/inter_fpga_path_report.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/sg0/time_budget.log
+To see "sg0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state sg0 (use "export file <filename>" to access them):
+  Modified_Modules_FB1_uA.rpt: Modified Module Report for FPGA FB1_uA  (21:58:33 Apr 14 2023)
+  Modified_Modules_FB1_uB.rpt: Modified Module Report for FPGA FB1_uB  (21:58:34 Apr 14 2023)
+  board_iostd_report.txt: Board IO STD Report (21:58:34 Apr 14 2023)
+  system_generate.log: System generate log (21:58:35 Apr 14 2023)
+  inter_fpga_path_report.csv: inter_fpga_path_report.csv (21:58:43 Apr 14 2023)
+  inter_fpga_path_report.rpt: Inter-Fpga Paths Report (21:58:43 Apr 14 2023)
+  time_budget.log: Timing Budgets Generation Log (21:58:43 Apr 14 2023)
+/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/FB1_uB_srs.tcl /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/FB1_uA_srs.tcl
+sg0
+launch protocompiler -script ./synthesis_files/FB1_uA/FB1_uA_srs.tcl -script ./synthesis_files/FB1_uB/FB1_uB_srs.tcl
+auto-detect product: "protocompiler100" from script: /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/FB1_uA_srs.tcl
+Launching ProtoCompiler on script '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/FB1_uA_srs.tcl':
+    max_parallel_jobs: 4 (use -max_parallel_jobs before -script to control this)
+    working directory: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA' (use -run_dir to change this)
+    log file:          'protocompiler_run_FB1_uA_srs.log' (in working directory)
+auto-detect product: "protocompiler100" from script: /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/FB1_uB_srs.tcl
+Launching ProtoCompiler on script '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/FB1_uB_srs.tcl':
+    max_parallel_jobs: 4 (use -max_parallel_jobs before -script to control this)
+    working directory: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB' (use -run_dir to change this)
+    log file:          'protocompiler_run_FB1_uB_srs.log' (in working directory)
+@N:|Note 0 additional ProtoCompiler100 license(s) are required
+Running: protocompiler_tcl_run in foreground
+
+Running Parallel Flow: protocompiler_tcl_run (ProtoCompiler Tcl Run)
+# Fri Apr 14 21:58:59 2023
+
+Running: protocompiler_run_FB1_uA_srs (protocompiler_run_FB1_uA_srs ProtoCompiler Launch)
+# Fri Apr 14 21:58:59 2023
+
+Running: protocompiler_run_FB1_uB_srs (protocompiler_run_FB1_uB_srs ProtoCompiler Launch)
+# Fri Apr 14 21:58:59 2023
+
+protocompiler_run_FB1_uA_srs completed
+# Fri Apr 14 22:01:09 2023
+
+log file:/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/protocompiler_run_FB1_uA_srs.log
+Return Code: 0
+Run Time:00h:02m:10s
+
+protocompiler_run_FB1_uB_srs completed
+# Fri Apr 14 22:02:11 2023
+
+log file:/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/protocompiler_run_FB1_uB_srs.log
+Return Code: 0
+Run Time:00h:03m:12s
+Complete: ProtoCompiler Tcl Run
+launch vivado -script ./synthesis_files/FB1_uA/vivado_srs/run_vivado_haps.tcl -script ./synthesis_files/FB1_uB/vivado_srs/run_vivado_haps.tcl
+Launching Vivado on script '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/vivado_srs/run_vivado_haps.tcl':
+Working directory: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/vivado_srs' (use -run_dir to change this)
+Log file: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/vivado_srs/vivado.log'
+
+Launching Vivado on script '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/vivado_srs/run_vivado_haps.tcl':
+Working directory: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/vivado_srs' (use -run_dir to change this)
+Log file: '/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/vivado_srs/vivado.log'
+
+Setting PAR_BELDLYRPT environment variable to 1.
+Running: Vivado JobFlow in foreground
+
+Running Parallel Flow: Vivado JobFlow
+# Fri Apr 14 22:02:31 2023
+
+Running: launch_vivado_run_vivado_haps (Xilinx Vivado run_vivado_haps)
+# Fri Apr 14 22:02:31 2023
+
+Running: launch_vivado_run_vivado_haps (Xilinx Vivado run_vivado_haps)
+# Fri Apr 14 22:02:31 2023
+log file: "/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/vivado_srs/vivado.log"
+
+launch_vivado_run_vivado_haps completed
+# Fri Apr 14 22:17:09 2023
+
+Return Code: 0
+Run Time:00h:14m:38s
+log file: "/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/vivado_srs/vivado.log"
+
+launch_vivado_run_vivado_haps completed
+# Fri Apr 14 22:19:04 2023
+
+Return Code: 0
+Run Time:00h:16m:33s
+Complete: Vivado JobFlow
+0
+Exported UC_JPEG_DECODER_runtime/system/connectivity.tcl (Apr-13 11:26:19)
+Exported UC_JPEG_DECODER_runtime/system/targetsystem.tsd (Apr-13 11:26:19)
+Exported UC_JPEG_DECODER_runtime/system/system4runtime.db (Apr-14 21:58:05)
+Copying runtime files from single FPGA database state /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uA/FB1_uA_srs|m0:
+@W: PC124 |Failed to export UC_JPEG_DECODER_runtime/FB1_uA/FB1_uA.bit. Are you sure you ran "import" after PAR finished?
+Exported UC_JPEG_DECODER_runtime/FB1_uA/FB1_uA4runtime.db (Apr-14 21:59:22)
+Copying runtime files from single FPGA database state /home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/FB1_uB_srs|m0:
+@W: PC124 |Failed to export UC_JPEG_DECODER_runtime/FB1_uB/FB1_uB.bit. Are you sure you ran "import" after PAR finished?
+Exported UC_JPEG_DECODER_runtime/FB1_uB/FB1_uB4runtime.db (Apr-14 21:59:24)
+Created template DesignConfigFile /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_runtime/targetsystem.dcf
+/home/m111/m111064559/synopsys_haps/lab/Final/synthesis_files/FB1_uB/FB1_uB_srs
+m0
+exit status=0
+License checkin: ProtoCompiler100

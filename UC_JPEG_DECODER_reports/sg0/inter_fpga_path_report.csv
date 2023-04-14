@@ -1,0 +1,2 @@
+Id,Slack (ns),Source Clock,Sink Clock,Exception,Hops,TDMs used per hop**,Total TDM delay (ns)*,User logic delay (ns),Path delay (ns),Requirement (ns),Start Point,End Point,Net Name,
+1,41.108,clk_i:r,clk_i:r,-,-,x1,(trace:3.753) = 3.753,0.000,3.890,44.998,FB1.uA.dut_inst.aptn_reset_sync_rst_i_4.Q[0],FB1.uB.dut_inst.aptn_reset_sync_rst_i_2.D[0],rst_i

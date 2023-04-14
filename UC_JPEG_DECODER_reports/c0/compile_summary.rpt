@@ -1,0 +1,29 @@
+=========Summary for incremetal compiler==========
+Module Name                         Compile Status
+--------------------------------------------------
+jpeg_bitbuffer                      recompiled    
+jpeg_dht_0000                       recompiled    
+jpeg_dht_std_cx_ac                  recompiled    
+jpeg_dht_std_cx_dc                  recompiled    
+jpeg_dht_std_y_ac                   recompiled    
+jpeg_dht_std_y_dc                   recompiled    
+jpeg_dqt                            recompiled    
+jpeg_idct                           recompiled    
+jpeg_idct_fifo                      recompiled    
+jpeg_idct_ram                       recompiled    
+jpeg_idct_ram_dp                    recompiled    
+jpeg_idct_transpose                 recompiled    
+jpeg_idct_transpose_ram             recompiled    
+jpeg_idct_x                         recompiled    
+jpeg_idct_y                         recompiled    
+jpeg_input                          recompiled    
+jpeg_mcu_id                         recompiled    
+jpeg_mcu_proc                       recompiled    
+jpeg_output                         recompiled    
+jpeg_output_cx_ram                  recompiled    
+jpeg_output_cx_ram_ram_dp_256_8     recompiled    
+jpeg_output_fifo                    recompiled    
+jpeg_output_y_ram                   recompiled    
+jpeg_output_y_ram_ram_dp_512_9      recompiled    
+top                                 recompiled    
+==================================================

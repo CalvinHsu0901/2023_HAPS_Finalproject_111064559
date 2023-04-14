@@ -1,0 +1,1244 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|c0
+Synopsys HDL Compiler, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:14, @4216327
+
+@N|Running in 64-bit mode
+@N: Compiling unified compile database from "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb"
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 8388608 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|c0
+Synopsys SCM Compiler, Version comp202012pcp4, Build 193R, Built Apr  8 2022 21:30:28, @4216327
+
+@N: Running in 64-bit mode
+@N: Reading unified compile database from "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/"
+@N: Running compiler in Fast Synthesis mode
+@N: Distributing compilation using maximum of 4 parallel jobs
+@N: Created 24 jobs for distributed compilation
+@N: Compilation of distcomp0 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp1 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp2 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp3 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp4 finished. Run time 0h:00m:02s
+@N: Compilation of distcomp5 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp6 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp7 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp8 finished. Run time 0h:00m:02s
+@N: Compilation of distcomp9 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp10 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp11 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp12 finished. Run time 0h:00m:02s
+@N: Compilation of distcomp13 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp14 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp15 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp16 finished. Run time 0h:00m:02s
+@N: Compilation of distcomp17 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp18 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp19 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp20 finished. Run time 0h:00m:02s
+@N: Compilation of distcomp21 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp22 finished. Run time 0h:00m:01s
+@N: Compilation of distcomp23 finished. Run time 0h:00m:01s
+###########################################################[
+@N: Running distributed compile: job0
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module top in library work of instance top.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp0/distcomp0.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:16 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job1
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_mcu_proc in library work of instance jpeg_mcu_proc.
+@W: CL169 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_mcu_proc.v":122:0:122:0|Pruning unused register code_bits_q[7:0]. Make sure that there are no unused intermediate registers.
+Running optimization stage 1 on jpeg_mcu_proc .......
+Finished optimization stage 1 on jpeg_mcu_proc (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_mcu_proc .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_mcu_proc.v":44:0:44:0|Input inport_last_i is unused.
+Finished optimization stage 2 on jpeg_mcu_proc (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 216MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp1/distcomp1.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 216MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:16 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job2
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_bitbuffer in library work of instance jpeg_bitbuffer.
+Running optimization stage 1 on jpeg_bitbuffer .......
+Finished optimization stage 1 on jpeg_bitbuffer (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_bitbuffer .......
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_bitbuffer.v":58:0:58:0|Register bit wr_ptr_q[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_bitbuffer.v":58:0:58:0|Register bit wr_ptr_q[1] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_bitbuffer.v":58:0:58:0|Register bit wr_ptr_q[2] is always 0.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_bitbuffer.v":58:0:58:0|Pruning register bits 2 to 0 of wr_ptr_q[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_bitbuffer.v":38:0:38:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_bitbuffer (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp2/distcomp2.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 214MB peak: 214MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:16 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job3
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_dht in library work of instance jpeg_dht_0000.
+Running optimization stage 1 on jpeg_dht_0000 .......
+Finished optimization stage 1 on jpeg_dht_0000 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_dht_0000 .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dht.v":46:0:46:0|Input cfg_valid_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dht.v":47:0:47:0|Input cfg_data_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dht.v":48:0:48:0|Input cfg_last_i is unused.
+Finished optimization stage 2 on jpeg_dht_0000 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp3/distcomp3.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:16 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job4
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_input in library work of instance jpeg_input.
+@W: CL169 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_input.v":395:0:395:0|Pruning unused register img_precision_q[7:0]. Make sure that there are no unused intermediate registers.
+Running optimization stage 1 on jpeg_input .......
+Finished optimization stage 1 on jpeg_input (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_input .......
+Finished optimization stage 2 on jpeg_input (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp4/distcomp4.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 215MB peak: 215MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:17 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job5
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct in library work of instance jpeg_idct.
+Running optimization stage 1 on jpeg_idct .......
+Finished optimization stage 1 on jpeg_idct (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_idct .......
+Finished optimization stage 2 on jpeg_idct (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp5/distcomp5.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:17 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job6
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_dqt in library work of instance jpeg_dqt.
+Running optimization stage 1 on __ZEBU_mem_a256_d8_ra_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a256_d8_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL134 :"./src/jpeg_dqt.v":32:0:32:0|Found RAM table_dqt_q, depth=256, width=8
+Running optimization stage 1 on jpeg_dqt .......
+Finished optimization stage 1 on jpeg_dqt (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a256_d8_ra_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a256_d8_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a256_d8_ra_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a256_d8_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a256_d8_ra_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a256_d8_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_dqt .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dqt.v":38:0:38:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_dqt (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp6/distcomp6.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:17 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job7
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output in library work of instance jpeg_output.
+Running optimization stage 1 on jpeg_output .......
+Finished optimization stage 1 on jpeg_output (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_output .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output.v":38:0:38:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_output (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp7/distcomp7.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 218MB peak: 218MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:17 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job8
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_mcu_id in library work of instance jpeg_mcu_id.
+Running optimization stage 1 on jpeg_mcu_id .......
+Finished optimization stage 1 on jpeg_mcu_id (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_mcu_id .......
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_mcu_id.v":124:0:124:0|Register bit y_idx_q[0] is always 0.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_mcu_id.v":124:0:124:0|Pruning register bit 0 of y_idx_q[13:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_mcu_id.v":40:0:40:0|Input img_height_i is unused.
+Finished optimization stage 2 on jpeg_mcu_id (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp8/distcomp8.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 214MB peak: 214MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:18 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job9
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_dht_std_cx_ac in library work of instance jpeg_dht_std_cx_ac.
+Running optimization stage 1 on jpeg_dht_std_cx_ac .......
+Finished optimization stage 1 on jpeg_dht_std_cx_ac (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on jpeg_dht_std_cx_ac .......
+Finished optimization stage 2 on jpeg_dht_std_cx_ac (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 216MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp9/distcomp9.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 216MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:18 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job10
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_dht_std_y_dc in library work of instance jpeg_dht_std_y_dc.
+Running optimization stage 1 on jpeg_dht_std_y_dc .......
+Finished optimization stage 1 on jpeg_dht_std_y_dc (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Synthesizing module jpeg_dht_std_cx_dc in library work of instance jpeg_dht_std_cx_dc.
+Running optimization stage 1 on jpeg_dht_std_cx_dc .......
+Finished optimization stage 1 on jpeg_dht_std_cx_dc (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_dht_std_cx_dc .......
+@W: CL246 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dht_std_cx_dc.v":33:0:33:0|Input port bits 4 to 0 of lookup_input_i[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on jpeg_dht_std_cx_dc (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_dht_std_y_dc .......
+@W: CL246 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_dht_std_y_dc.v":33:0:33:0|Input port bits 6 to 0 of lookup_input_i[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on jpeg_dht_std_y_dc (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp10/distcomp10.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:18 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job11
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_dht_std_y_ac in library work of instance jpeg_dht_std_y_ac.
+Running optimization stage 1 on jpeg_dht_std_y_ac .......
+Finished optimization stage 1 on jpeg_dht_std_y_ac (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on jpeg_dht_std_y_ac .......
+Finished optimization stage 2 on jpeg_dht_std_y_ac (CPU Time 0h:00m:00s, Memory Used current: 217MB peak: 217MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp11/distcomp11.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 217MB peak: 217MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:18 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job12
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_y in library work of instance jpeg_idct_y.
+Running optimization stage 1 on jpeg_idct_y .......
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[1] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[2] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[3] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[5] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[7] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[10] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Register bit mul4_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Register bit mul0_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Register bit mul1_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[4] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[9] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Register bit mul2_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[4] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[9] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Register bit mul3_b[18] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report messages -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":83:0:83:0|Pruning register bits 31 to 12 of mul0_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":85:0:85:0|Pruning register bits 31 to 12 of mul1_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Pruning register bits 31 to 12 of mul2_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Pruning register bit 9 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Pruning register bit 4 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":87:0:87:0|Pruning register bit 0 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Pruning register bits 31 to 12 of mul3_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Pruning register bit 9 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Pruning register bit 4 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":89:0:89:0|Pruning register bit 0 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Pruning register bits 31 to 12 of mul4_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Pruning register bit 10 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Pruning register bit 7 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Pruning register bit 5 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Pruning register bits 3 to 0 of mul4_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on jpeg_idct_y (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on jpeg_idct_y .......
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":178:0:178:0|Pruning register bits 3 to 0 of mul4_q[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":177:0:177:0|Pruning register bit 0 of mul3_q[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":176:0:176:0|Pruning register bit 0 of mul2_q[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":86:0:86:0|Pruning register bit 31 of mul2_a[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":88:0:88:0|Pruning register bit 31 of mul3_a[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":90:0:90:0|Pruning register bits 31 to 28 of mul4_a[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":81:0:81:0|Pruning register bits 31 to 28 of i0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":200:0:200:0|Pruning register bit 0 of mul2[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":201:0:201:0|Pruning register bit 0 of mul3[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":202:0:202:0|Pruning register bits 3 to 0 of mul4[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL135 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":253:0:253:0|Found sequential shift out_stg2_idx_q with address depth of 3 words and data bit width of 3.
+@N: CL135 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":348:0:348:0|Found sequential shift out_stg3_valid_q with address depth of 4 words and data bit width of 1.
+@W: CL247 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":52:0:52:0|Input port bit 31 of inport_data2_i[31:0] is unused
+
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":48:0:48:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_idct_y (CPU Time 0h:00m:00s, Memory Used current: 231MB peak: 231MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp12/distcomp12.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:20 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job13
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_fifo in library work of instance jpeg_idct_fifo.
+Running optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL134 :"./src/jpeg_idct_fifo.v":32:0:32:0|Found RAM ram_q, depth=8, width=32
+Running optimization stage 1 on jpeg_idct_fifo .......
+Finished optimization stage 1 on jpeg_idct_fifo (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_idct_fifo .......
+Finished optimization stage 2 on jpeg_idct_fifo (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp13/distcomp13.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:19 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job14
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_transpose in library work of instance jpeg_idct_transpose.
+Running optimization stage 1 on jpeg_idct_transpose .......
+Finished optimization stage 1 on jpeg_idct_transpose (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_idct_transpose .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_transpose.v":38:0:38:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_idct_transpose (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp14/distcomp14.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:19 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job15
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_ram in library work of instance jpeg_idct_ram.
+Running optimization stage 1 on jpeg_idct_ram .......
+Finished optimization stage 1 on jpeg_idct_ram (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on jpeg_idct_ram .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_ram.v":38:0:38:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_idct_ram (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp15/distcomp15.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 218MB peak: 218MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:19 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job16
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_x in library work of instance jpeg_idct_x.
+Running optimization stage 1 on jpeg_idct_x .......
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[1] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[2] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[3] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[5] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[7] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[10] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Register bit mul4_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Register bit mul0_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Register bit mul1_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[4] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[9] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[18] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[19] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[20] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[21] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[22] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[23] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[24] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[25] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[26] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[27] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[28] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[29] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[30] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Register bit mul2_b[31] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[0] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[4] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[9] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[12] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[13] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[14] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[15] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[16] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[17] is always 0.
+@N: CL189 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Register bit mul3_b[18] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report messages -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":83:0:83:0|Pruning register bits 31 to 12 of mul0_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":85:0:85:0|Pruning register bits 31 to 12 of mul1_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Pruning register bits 31 to 12 of mul2_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Pruning register bit 9 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Pruning register bit 4 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":87:0:87:0|Pruning register bit 0 of mul2_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Pruning register bits 31 to 12 of mul3_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Pruning register bit 9 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Pruning register bit 4 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":89:0:89:0|Pruning register bit 0 of mul3_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Pruning register bits 31 to 12 of mul4_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Pruning register bit 10 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Pruning register bit 7 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Pruning register bit 5 of mul4_b[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Pruning register bits 3 to 0 of mul4_b[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on jpeg_idct_x (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on jpeg_idct_x .......
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":178:0:178:0|Pruning register bits 3 to 0 of mul4_q[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":177:0:177:0|Pruning register bit 0 of mul3_q[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":176:0:176:0|Pruning register bit 0 of mul2_q[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":86:0:86:0|Pruning register bit 31 of mul2_a[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":88:0:88:0|Pruning register bit 31 of mul3_a[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":90:0:90:0|Pruning register bits 31 to 28 of mul4_a[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":81:0:81:0|Pruning register bits 31 to 28 of i0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":200:0:200:0|Pruning register bit 0 of mul2[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":201:0:201:0|Pruning register bit 0 of mul3[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":202:0:202:0|Pruning register bits 3 to 0 of mul4[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL135 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":253:0:253:0|Found sequential shift out_stg2_idx_q with address depth of 3 words and data bit width of 3.
+@N: CL135 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":348:0:348:0|Found sequential shift out_stg3_valid_q with address depth of 4 words and data bit width of 1.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":48:0:48:0|Input img_end_i is unused.
+Finished optimization stage 2 on jpeg_idct_x (CPU Time 0h:00m:00s, Memory Used current: 231MB peak: 231MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp16/distcomp16.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:21 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job17
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output_fifo in library work of instance jpeg_output_fifo.
+Running optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL134 :"./src/jpeg_output_fifo.v":32:0:32:0|Found RAM ram_q, depth=8, width=32
+Running optimization stage 1 on jpeg_output_fifo .......
+Finished optimization stage 1 on jpeg_output_fifo (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a8_d32_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a8_d32_ra_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_output_fifo .......
+Finished optimization stage 2 on jpeg_output_fifo (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp17/distcomp17.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:20 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job18
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output_y_ram in library work of instance jpeg_output_y_ram.
+Running optimization stage 1 on jpeg_output_y_ram .......
+Finished optimization stage 1 on jpeg_output_y_ram (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_output_y_ram .......
+Finished optimization stage 2 on jpeg_output_y_ram (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 216MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp18/distcomp18.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 216MB peak: 216MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:20 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job19
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output_cx_ram in library work of instance jpeg_output_cx_ram.
+Running optimization stage 1 on jpeg_output_cx_ram .......
+Finished optimization stage 1 on jpeg_output_cx_ram (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
+Running optimization stage 2 on jpeg_output_cx_ram .......
+Finished optimization stage 2 on jpeg_output_cx_ram (CPU Time 0h:00m:00s, Memory Used current: 214MB peak: 214MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp19/distcomp19.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 214MB peak: 214MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:20 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job20
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_transpose_ram in library work of instance jpeg_idct_transpose_ram.
+Running optimization stage 1 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL214 :"./src/jpeg_idct_transpose_ram.v":32:0:32:0|Found multi-write port RAM ram, number of write ports=2, depth=32, width=32
+Running optimization stage 1 on jpeg_idct_transpose_ram .......
+Finished optimization stage 1 on jpeg_idct_transpose_ram (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable3 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a32_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_idct_transpose_ram .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_transpose_ram.v":36:0:36:0|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_transpose_ram.v":41:0:41:0|Input rst1_i is unused.
+Finished optimization stage 2 on jpeg_idct_transpose_ram (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp20/distcomp20.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:21 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job21
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_idct_ram_dp in library work of instance jpeg_idct_ram_dp.
+Running optimization stage 1 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL214 :"./src/jpeg_idct_ram_dp.v":32:0:32:0|Found multi-write port RAM ram, number of write ports=2, depth=64, width=16
+Running optimization stage 1 on jpeg_idct_ram_dp .......
+Finished optimization stage 1 on jpeg_idct_ram_dp (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable3 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a64_d16_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_idct_ram_dp .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_ram_dp.v":36:0:36:0|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_ram_dp.v":41:0:41:0|Input rst1_i is unused.
+Finished optimization stage 2 on jpeg_idct_ram_dp (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp21/distcomp21.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:21 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job22
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output_y_ram_ram_dp_512_9 in library work of instance jpeg_output_y_ram_ram_dp_512_9.
+Running optimization stage 1 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL214 :"./src/jpeg_output_y_ram.v":192:0:192:0|Found multi-write port RAM ram, number of write ports=2, depth=512, width=32
+Running optimization stage 1 on jpeg_output_y_ram_ram_dp_512_9 .......
+Finished optimization stage 1 on jpeg_output_y_ram_ram_dp_512_9 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable3 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a512_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_output_y_ram_ram_dp_512_9 .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_y_ram.v":196:0:196:0|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_y_ram.v":201:0:201:0|Input rst1_i is unused.
+Finished optimization stage 2 on jpeg_output_y_ram_ram_dp_512_9 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp22/distcomp22.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:21 2023
+
+###########################################################]
+###########################################################[
+@N: Running distributed compile: job23
+###########################################################]
+###########################################################[
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_vivado.v" (library deviceLib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/hypermods.v" (library hyperlib)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/vlog/umr_capim.v" (library haps)
+@I::"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/synip/hcei/zceistubs.v" (library haps)
+Synthesizing module jpeg_output_cx_ram_ram_dp_256_8 in library work of instance jpeg_output_cx_ram_ram_dp_256_8.
+Running optimization stage 1 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 1 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+@N: CL214 :"./src/jpeg_output_cx_ram.v":488:0:488:0|Found multi-write port RAM ram, number of write ports=2, depth=256, width=32
+Running optimization stage 1 on jpeg_output_cx_ram_ram_dp_256_8 .......
+Finished optimization stage 1 on jpeg_output_cx_ram_ram_dp_256_8 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 1 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_2 .......
+Finished optimization stage 1 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_2 .......
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input asyncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input syncreset is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input resetdata is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable0 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable1 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable2 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input addr3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input data3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input clock3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input enable3 is unused.
+@N: CL159 :"/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/lib/xilinx/unisim_retarget.v":0:0:0:0|Input bitEnable3 is unused.
+Finished optimization stage 2 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_2 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_1 .......
+Finished optimization stage 2 on __ZEBU_mem_a256_d32_ra_ra_ws_ws_1 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+Running optimization stage 2 on jpeg_output_cx_ram_ram_dp_256_8 .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_cx_ram.v":492:0:492:0|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_cx_ram.v":497:0:497:0|Input rst1_i is unused.
+Finished optimization stage 2 on jpeg_output_cx_ram_ram_dp_256_8 (CPU Time 0h:00m:00s, Memory Used current: 212MB peak: 212MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/distcomp/distcomp23/distcomp23.rt.csv
+
+
+At c_scm Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 212MB peak: 212MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:21 2023
+
+###########################################################]
+
+At c_scm Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:10s; Memory used current: 189MB peak: 189MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:10s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:25 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/synwork/top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:10s; Memory used current: 64MB peak: 64MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:10s cputime
+
+Process completed successfully.
+# Fri Apr 14 21:54:25 2023
+
+###########################################################]

@@ -1,0 +1,211 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|pp0
+
+# Written on Thu Apr 13 11:27:02 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/cclock_map.tcl"
+                         "/home/m111/m111064559/synopsys_haps/lab/Final/design.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 1 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+System       System     |     1000.000         |     No paths         |     No paths         |     No paths                         
+System       clk_i      |     45.000           |     No paths         |     No paths         |     No paths                         
+clk_i        System     |     45.000           |     No paths         |     No paths         |     No paths                         
+clk_i        clk_i      |     45.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:idle_o
+p:inport_accept_o
+p:inport_data_i[0]
+p:inport_data_i[1]
+p:inport_data_i[2]
+p:inport_data_i[3]
+p:inport_data_i[4]
+p:inport_data_i[5]
+p:inport_data_i[6]
+p:inport_data_i[7]
+p:inport_data_i[8]
+p:inport_data_i[9]
+p:inport_data_i[10]
+p:inport_data_i[11]
+p:inport_data_i[12]
+p:inport_data_i[13]
+p:inport_data_i[14]
+p:inport_data_i[15]
+p:inport_data_i[16]
+p:inport_data_i[17]
+p:inport_data_i[18]
+p:inport_data_i[19]
+p:inport_data_i[20]
+p:inport_data_i[21]
+p:inport_data_i[22]
+p:inport_data_i[23]
+p:inport_data_i[24]
+p:inport_data_i[25]
+p:inport_data_i[26]
+p:inport_data_i[27]
+p:inport_data_i[28]
+p:inport_data_i[29]
+p:inport_data_i[30]
+p:inport_data_i[31]
+p:inport_last_i
+p:inport_strb_i[0]
+p:inport_strb_i[1]
+p:inport_strb_i[2]
+p:inport_strb_i[3]
+p:inport_valid_i
+p:outport_accept_i
+p:outport_height_o[0]
+p:outport_height_o[1]
+p:outport_height_o[2]
+p:outport_height_o[3]
+p:outport_height_o[4]
+p:outport_height_o[5]
+p:outport_height_o[6]
+p:outport_height_o[7]
+p:outport_height_o[8]
+p:outport_height_o[9]
+p:outport_height_o[10]
+p:outport_height_o[11]
+p:outport_height_o[12]
+p:outport_height_o[13]
+p:outport_height_o[14]
+p:outport_height_o[15]
+p:outport_pixel_b_o[0]
+p:outport_pixel_b_o[1]
+p:outport_pixel_b_o[2]
+p:outport_pixel_b_o[3]
+p:outport_pixel_b_o[4]
+p:outport_pixel_b_o[5]
+p:outport_pixel_b_o[6]
+p:outport_pixel_b_o[7]
+p:outport_pixel_g_o[0]
+p:outport_pixel_g_o[1]
+p:outport_pixel_g_o[2]
+p:outport_pixel_g_o[3]
+p:outport_pixel_g_o[4]
+p:outport_pixel_g_o[5]
+p:outport_pixel_g_o[6]
+p:outport_pixel_g_o[7]
+p:outport_pixel_r_o[0]
+p:outport_pixel_r_o[1]
+p:outport_pixel_r_o[2]
+p:outport_pixel_r_o[3]
+p:outport_pixel_r_o[4]
+p:outport_pixel_r_o[5]
+p:outport_pixel_r_o[6]
+p:outport_pixel_r_o[7]
+p:outport_pixel_x_o[0]
+p:outport_pixel_x_o[1]
+p:outport_pixel_x_o[2]
+p:outport_pixel_x_o[3]
+p:outport_pixel_x_o[4]
+p:outport_pixel_x_o[5]
+p:outport_pixel_x_o[6]
+p:outport_pixel_x_o[7]
+p:outport_pixel_x_o[8]
+p:outport_pixel_x_o[9]
+p:outport_pixel_x_o[10]
+p:outport_pixel_x_o[11]
+p:outport_pixel_x_o[12]
+p:outport_pixel_x_o[13]
+p:outport_pixel_x_o[14]
+p:outport_pixel_x_o[15]
+p:outport_pixel_y_o[0]
+p:outport_pixel_y_o[1]
+p:outport_pixel_y_o[2]
+p:outport_pixel_y_o[3]
+p:outport_pixel_y_o[4]
+p:outport_pixel_y_o[5]
+p:outport_pixel_y_o[6]
+p:outport_pixel_y_o[7]
+p:outport_pixel_y_o[8]
+p:outport_pixel_y_o[9]
+p:outport_pixel_y_o[10]
+p:outport_pixel_y_o[11]
+p:outport_pixel_y_o[12]
+p:outport_pixel_y_o[13]
+p:outport_pixel_y_o[14]
+p:outport_pixel_y_o[15]
+p:outport_valid_o
+p:outport_width_o[0]
+p:outport_width_o[1]
+p:outport_width_o[2]
+p:outport_width_o[3]
+p:outport_width_o[4]
+p:outport_width_o[5]
+p:outport_width_o[6]
+p:outport_width_o[7]
+p:outport_width_o[8]
+p:outport_width_o[9]
+p:outport_width_o[10]
+p:outport_width_o[11]
+p:outport_width_o[12]
+p:outport_width_o[13]
+p:outport_width_o[14]
+p:outport_width_o[15]
+p:rst_i
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

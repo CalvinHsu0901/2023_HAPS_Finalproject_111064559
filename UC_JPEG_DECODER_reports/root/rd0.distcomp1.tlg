@@ -1,0 +1,201 @@
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_input in library work
+@N:: Applying property .noprune with value 1 on module jpeg_input in library work
+@N:: Applying property .distcomp_black_box with value 1 on module jpeg_input in library work
+@N:: Applying property syn_black_box with value 1 on module jpeg_input in library work
+@N:: Applying property .distcompmodetop with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module top in library work
+@N:: Applying property .noprune with value 1 on module top in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_mcu_proc in library work
+@N:: Applying property .noprune with value 1 on module jpeg_mcu_proc in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_mcu_id in library work
+@N:: Applying property .noprune with value 1 on module jpeg_mcu_id in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_bitbuffer in library work
+@N:: Applying property .noprune with value 1 on module jpeg_bitbuffer in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output_fifo in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output_fifo in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output_cx_ram in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output_cx_ram in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output_cx_ram_ram_dp_256_8 in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output_cx_ram_ram_dp_256_8 in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output_y_ram in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output_y_ram in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_output_y_ram_ram_dp_512_9 in library work
+@N:: Applying property .noprune with value 1 on module jpeg_output_y_ram_ram_dp_512_9 in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dqt in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dqt in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_fifo in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_fifo in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_y in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_y in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_transpose in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_transpose in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_transpose_ram in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_transpose_ram in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_x in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_x in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_ram in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_ram in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_idct_ram_dp in library work
+@N:: Applying property .noprune with value 1 on module jpeg_idct_ram_dp in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dht in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dht in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dht_std_cx_ac in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dht_std_cx_ac in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dht_std_cx_dc in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dht_std_cx_dc in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dht_std_y_ac in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dht_std_y_ac in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_dht_std_y_dc in library work
+@N:: Applying property .noprune with value 1 on module jpeg_dht_std_y_dc in library work
+Selecting top level module top
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_input.v":32:7:32:16|Synthesizing module jpeg_input in library work.
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht.v":32:7:32:14|Synthesizing module jpeg_dht in library work.
+
+	SUPPORT_WRITABLE_DHT=32'b00000000000000000000000000000000
+	DHT_TABLE_Y_DC=8'b00000000
+	DHT_TABLE_Y_AC=8'b00010000
+	DHT_TABLE_CX_DC=8'b00000001
+	DHT_TABLE_CX_AC=8'b00010001
+   Generated name = jpeg_dht_0s_0_16_1_17
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_y_dc.v":31:7:31:23|Synthesizing module jpeg_dht_std_y_dc in library work.
+Running optimization stage 1 on jpeg_dht_std_y_dc .......
+@W: CL246 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_y_dc.v":33:21:33:34|Input port bits 6 to 0 of lookup_input_i[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 1 on jpeg_dht_std_y_dc (CPU Time 0h:00m:00s, Memory Used current: 216MB peak: 216MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_y_ac.v":31:7:31:23|Synthesizing module jpeg_dht_std_y_ac in library work.
+Running optimization stage 1 on jpeg_dht_std_y_ac .......
+Finished optimization stage 1 on jpeg_dht_std_y_ac (CPU Time 0h:00m:00s, Memory Used current: 217MB peak: 217MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_cx_dc.v":31:7:31:24|Synthesizing module jpeg_dht_std_cx_dc in library work.
+Running optimization stage 1 on jpeg_dht_std_cx_dc .......
+@W: CL246 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_cx_dc.v":33:21:33:34|Input port bits 4 to 0 of lookup_input_i[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 1 on jpeg_dht_std_cx_dc (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht_std_cx_ac.v":31:7:31:24|Synthesizing module jpeg_dht_std_cx_ac in library work.
+Running optimization stage 1 on jpeg_dht_std_cx_ac .......
+Finished optimization stage 1 on jpeg_dht_std_cx_ac (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+Running optimization stage 1 on jpeg_dht_0s_0_16_1_17 .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht.v":46:21:46:31|Input cfg_valid_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht.v":47:21:47:30|Input cfg_data_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dht.v":48:21:48:30|Input cfg_last_i is unused.
+Finished optimization stage 1 on jpeg_dht_0s_0_16_1_17 (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":32:7:32:22|Synthesizing module jpeg_idct_ram_dp in library work.
+@N: CG440 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":58:13:58:15|Allowing writes in multiple processes for multi-port RAM
+Running optimization stage 1 on jpeg_idct_ram_dp .......
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":79:19:79:31|Found multi-write port RAM ram, number of write ports=2, depth=64, width=16
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":71:19:71:31|Found multi-write port RAM ram, number of write ports=2, depth=64, width=16
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":36:21:36:26|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram_dp.v":41:21:41:26|Input rst1_i is unused.
+Finished optimization stage 1 on jpeg_idct_ram_dp (CPU Time 0h:00m:00s, Memory Used current: 218MB peak: 218MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram.v":32:7:32:19|Synthesizing module jpeg_idct_ram in library work.
+Running optimization stage 1 on jpeg_idct_ram .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_ram.v":38:21:38:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_idct_ram (CPU Time 0h:00m:00s, Memory Used current: 219MB peak: 219MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_x.v":32:7:32:17|Synthesizing module jpeg_idct_x in library work.
+Running optimization stage 1 on jpeg_idct_x .......
+@W: CL265 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_x.v":403:0:403:5|Removing unused bit 7 of valid_q[7:0]. Either assign all bits or reduce the width of the signal.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_x.v":48:21:48:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_idct_x (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":32:7:32:29|Synthesizing module jpeg_idct_transpose_ram in library work.
+@N: CG440 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":58:13:58:15|Allowing writes in multiple processes for multi-port RAM
+Running optimization stage 1 on jpeg_idct_transpose_ram .......
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":79:19:79:31|Found multi-write port RAM ram, number of write ports=2, depth=32, width=32
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":71:19:71:31|Found multi-write port RAM ram, number of write ports=2, depth=32, width=32
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":36:21:36:26|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose_ram.v":41:21:41:26|Input rst1_i is unused.
+Finished optimization stage 1 on jpeg_idct_transpose_ram (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose.v":32:7:32:25|Synthesizing module jpeg_idct_transpose in library work.
+Running optimization stage 1 on jpeg_idct_transpose .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_transpose.v":38:21:38:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_idct_transpose (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_y.v":32:7:32:17|Synthesizing module jpeg_idct_y in library work.
+Running optimization stage 1 on jpeg_idct_y .......
+@W: CL265 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_y.v":403:0:403:5|Removing unused bit 7 of valid_q[7:0]. Either assign all bits or reduce the width of the signal.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_y.v":48:21:48:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_idct_y (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":32:7:32:20|Synthesizing module jpeg_idct_fifo in library work.
+
+	WIDTH=32'b00000000000000000000000000100000
+	DEPTH=32'b00000000000000000000000000001000
+	ADDR_W=32'b00000000000000000000000000000011
+	COUNT_W=32'b00000000000000000000000000000100
+   Generated name = jpeg_idct_fifo_32s_8s_3s_4s
+Running optimization stage 1 on jpeg_idct_fifo_32s_8s_3s_4s .......
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[7][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[6][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[5][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[4][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[3][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[2][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[1][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[0][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on jpeg_idct_fifo_32s_8s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct.v":32:7:32:15|Synthesizing module jpeg_idct in library work.
+@W: CG360 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_idct.v":63:14:63:26|Removing wire input_ready_w, as there is no assignment to it.
+Running optimization stage 1 on jpeg_idct .......
+Finished optimization stage 1 on jpeg_idct (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dqt.v":32:7:32:14|Synthesizing module jpeg_dqt in library work.
+Running optimization stage 1 on jpeg_dqt .......
+@N: CL134 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dqt.v":112:0:112:5|Found RAM table_dqt_q, depth=256, width=8
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_dqt.v":38:21:38:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_dqt (CPU Time 0h:00m:00s, Memory Used current: 222MB peak: 222MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":192:7:192:36|Synthesizing module jpeg_output_y_ram_ram_dp_512_9 in library work.
+@N: CG440 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":212:13:212:15|Allowing writes in multiple processes for multi-port RAM
+Running optimization stage 1 on jpeg_output_y_ram_ram_dp_512_9 .......
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":232:19:232:31|Found multi-write port RAM ram, number of write ports=2, depth=512, width=32
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":224:19:224:31|Found multi-write port RAM ram, number of write ports=2, depth=512, width=32
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":196:21:196:26|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":201:21:201:26|Input rst1_i is unused.
+Finished optimization stage 1 on jpeg_output_y_ram_ram_dp_512_9 (CPU Time 0h:00m:00s, Memory Used current: 223MB peak: 223MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_y_ram.v":32:7:32:23|Synthesizing module jpeg_output_y_ram in library work.
+Running optimization stage 1 on jpeg_output_y_ram .......
+Finished optimization stage 1 on jpeg_output_y_ram (CPU Time 0h:00m:00s, Memory Used current: 223MB peak: 223MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":488:7:488:37|Synthesizing module jpeg_output_cx_ram_ram_dp_256_8 in library work.
+@N: CG440 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":508:13:508:15|Allowing writes in multiple processes for multi-port RAM
+Running optimization stage 1 on jpeg_output_cx_ram_ram_dp_256_8 .......
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":528:19:528:31|Found multi-write port RAM ram, number of write ports=2, depth=256, width=32
+@N: CL214 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":520:19:520:31|Found multi-write port RAM ram, number of write ports=2, depth=256, width=32
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":492:21:492:26|Input rst0_i is unused.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":497:21:497:26|Input rst1_i is unused.
+Finished optimization stage 1 on jpeg_output_cx_ram_ram_dp_256_8 (CPU Time 0h:00m:00s, Memory Used current: 223MB peak: 223MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_cx_ram.v":32:7:32:24|Synthesizing module jpeg_output_cx_ram in library work.
+Running optimization stage 1 on jpeg_output_cx_ram .......
+Finished optimization stage 1 on jpeg_output_cx_ram (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":32:7:32:22|Synthesizing module jpeg_output_fifo in library work.
+
+	WIDTH=32'b00000000000000000000000000100000
+	DEPTH=32'b00000000000000000000000000001000
+	ADDR_W=32'b00000000000000000000000000000011
+	COUNT_W=32'b00000000000000000000000000000100
+   Generated name = jpeg_output_fifo_32s_8s_3s_4s
+Running optimization stage 1 on jpeg_output_fifo_32s_8s_3s_4s .......
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[7][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[6][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[5][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[4][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[3][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[2][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[1][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output_fifo.v":77:0:77:5|Feedback mux created for signal ram_q[0][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on jpeg_output_fifo_32s_8s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output.v":32:7:32:17|Synthesizing module jpeg_output in library work.
+Running optimization stage 1 on jpeg_output .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_output.v":38:21:38:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_output (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_bitbuffer.v":32:7:32:20|Synthesizing module jpeg_bitbuffer in library work.
+Running optimization stage 1 on jpeg_bitbuffer .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_bitbuffer.v":38:21:38:29|Input img_end_i is unused.
+Finished optimization stage 1 on jpeg_bitbuffer (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_mcu_id.v":32:7:32:17|Synthesizing module jpeg_mcu_id in library work.
+Running optimization stage 1 on jpeg_mcu_id .......
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_mcu_id.v":40:21:40:32|Input img_height_i is unused.
+Finished optimization stage 1 on jpeg_mcu_id (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_mcu_proc.v":32:7:32:19|Synthesizing module jpeg_mcu_proc in library work.
+Running optimization stage 1 on jpeg_mcu_proc .......
+@W: CL169 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_mcu_proc.v":202:0:202:5|Pruning unused register code_bits_q[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL159 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_mcu_proc.v":44:21:44:33|Input inport_last_i is unused.
+Finished optimization stage 1 on jpeg_mcu_proc (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/top.v":32:7:32:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 224MB peak: 224MB)

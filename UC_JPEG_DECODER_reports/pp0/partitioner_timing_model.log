@@ -1,0 +1,105 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|pp0
+Synopsys ProtoCompiler Partitioner/Router, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+@N: AP152 |(Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s)
+Timing graph for view jpeg_bitbuffer
+   Nodes 56 (Constrained: 0), Edges 52, Dissolve Edges 2157
+   Build Time 0.0108773
+Timing graph for view jpeg_dqt
+   Nodes 136 (Constrained: 0), Edges 132, Dissolve Edges 1103
+   Build Time 0.0119453
+Timing graph for view jpeg_idct_fifo
+   Nodes 72 (Constrained: 0), Edges 68, Dissolve Edges 442
+   Build Time 0.00203242
+Timing graph for view jpeg_idct_y
+   Nodes 176 (Constrained: 0), Edges 172, Dissolve Edges 42805
+   Build Time 0.0594247
+Timing graph for view jpeg_idct_transpose_ram_0
+   Nodes 145 (Constrained: 0), Edges 75, Dissolve Edges 405
+   Build Time 0.00178448
+Timing graph for view jpeg_idct_transpose_ram_0_0
+   Nodes 145 (Constrained: 0), Edges 74, Dissolve Edges 404
+   Build Time 0.00120694
+Timing graph for view jpeg_idct_transpose
+   Nodes 178 (Constrained: 0), Edges 172, Dissolve Edges 1026
+   Build Time 0.00419397
+Timing graph for view jpeg_idct_x
+   Nodes 112 (Constrained: 0), Edges 109, Dissolve Edges 41683
+   Build Time 0.0441262
+Timing graph for view jpeg_idct_ram_dp_0
+   Nodes 83 (Constrained: 0), Edges 45, Dissolve Edges 232
+   Build Time 0.00110117
+Timing graph for view jpeg_idct_ram
+   Nodes 99 (Constrained: 0), Edges 96, Dissolve Edges 9966
+   Build Time 0.0267848
+Timing graph for view jpeg_idct
+   Nodes 134 (Constrained: 0), Edges 131, Dissolve Edges 1020
+   Build Time 0.00293081
+Timing graph for view jpeg_mcu_id
+   Nodes 76 (Constrained: 0), Edges 56, Dissolve Edges 1897
+   Build Time 0.00643143
+Timing graph for view jpeg_mcu_proc
+   Nodes 169 (Constrained: 0), Edges 135, Dissolve Edges 4197
+   Build Time 0.0120161
+Timing graph for view jpeg_output_cx_ram_ram_dp_256_8_0
+   Nodes 151 (Constrained: 0), Edges 81, Dissolve Edges 510
+   Build Time 0.00169675
+Timing graph for view jpeg_output_cx_ram
+   Nodes 110 (Constrained: 0), Edges 107, Dissolve Edges 2296
+   Build Time 0.00542732
+Timing graph for view jpeg_output_cx_ram_0
+   Nodes 110 (Constrained: 0), Edges 106, Dissolve Edges 2295
+   Build Time 0.0040923
+Timing graph for view jpeg_output_y_ram_ram_dp_512_9
+   Nodes 153 (Constrained: 0), Edges 83, Dissolve Edges 545
+   Build Time 0.00175553
+Timing graph for view jpeg_output_y_ram
+   Nodes 109 (Constrained: 0), Edges 106, Dissolve Edges 1957
+   Build Time 0.00360008
+Timing graph for view jpeg_output_fifo
+   Nodes 72 (Constrained: 0), Edges 65, Dissolve Edges 439
+   Build Time 0.00144949
+Timing graph for view jpeg_output
+   Nodes 202 (Constrained: 0), Edges 135, Dissolve Edges 11157
+   Build Time 0.0178932
+Timing graph for view jpeg_dht_std_cx_ac
+   Nodes 29 (Constrained: 0), Edges 208, Dissolve Edges 7882
+   Build Time 0.0261929
+Timing graph for view jpeg_dht_std_cx_dc
+   Nodes 29 (Constrained: 0), Edges 66, Dissolve Edges 348
+   Build Time 0.00160347
+Timing graph for view jpeg_dht_std_y_ac
+   Nodes 29 (Constrained: 0), Edges 208, Dissolve Edges 8575
+   Build Time 0.0243169
+Timing graph for view jpeg_dht_std_y_dc
+   Nodes 29 (Constrained: 0), Edges 72, Dissolve Edges 377
+   Build Time 0.00171277
+Timing graph for view jpeg_dht_0000
+   Nodes 47 (Constrained: 0), Edges 34, Dissolve Edges 838
+   Build Time 0.00196706
+Timing graph for view jpeg_input
+   Nodes 117 (Constrained: 0), Edges 319, Dissolve Edges 3332
+   Build Time 0.0128882
+Timing graph for view top
+   Nodes 135 (Constrained: 0), Edges 132, Dissolve Edges 132
+   Build Time 0.00143071
+@N: MF848 |Writing compressed timing models.
+@N: AP152 |(Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s)
+Complete

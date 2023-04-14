@@ -1,0 +1,32 @@
+
+############################################################################################################################################################################################
+############################################################################# BLOCK RAM MAPPING REPORT #####################################################################################
+############################################################################################################################################################################################
+RTL Instance                                                                                                                     Mapped                     Type       RTL Size    No of BRAMs    No of URAMs
+                                                                                                                                                                  (width*depth)                              
+======================================================================================================================================================================================================================================
+u_jpeg_input.un1_state_q_2                                                                                                           No                      rom     (1)* 2^(5)              0              0
+u_jpeg_input.un1_state_q_1                                                                                                           No                      rom     (1)* 2^(5)              0              0
+u_jpeg_input.un1_state_q                                                                                                             No                      rom     (1)* 2^(5)              0              0
+u_jpeg_output.u_info.ram_q[31:0]                                                                                                     No                     ram1    (32)* 2^(3)              0              0
+u_jpeg_output.u_ram_y.u_ram.ram[31:0]                                                                                                No                     ram1    (32)* 2^(9)              0              0
+u_jpeg_output.u_ram_cb.u_ram.ram[31:0]                                                                                               No                     ram1    (32)* 2^(8)              0              0
+u_jpeg_output.u_ram_cb.cx_rd_ptr_r[5:0]                                                                                              No                      rom     (6)* 2^(8)              0              0
+u_jpeg_output.u_ram_cr.u_ram.ram[31:0]                                                                                               No                     ram1    (32)* 2^(8)              0              0
+u_jpeg_output.u_ram_cr.cx_rd_ptr_r[5:0]                                                                                              No                      rom     (6)* 2^(8)              0              0
+u_jpeg_dqt.table_dqt_q[7:0]                                                                                                         Yes                     ram1     (8)* (256)            1.0              0
+u_jpeg_dqt.un1_inport_idx_q[5:0]                                                                                                    Yes                      rom      (6)* (64)            1.0              0
+u_jpeg_idct.u_input.u_ram0.ram[15:0]                                                                                                 No                     ram1    (16)* 2^(6)              0              0
+u_jpeg_idct.u_input.u_ram1.ram[15:0]                                                                                                 No                     ram1    (16)* 2^(6)              0              0
+u_jpeg_idct.u_input.u_ram2.ram[15:0]                                                                                                 No                     ram1    (16)* 2^(6)              0              0
+u_jpeg_idct.u_input.u_ram3.ram[15:0]                                                                                                 No                     ram1    (16)* 2^(6)              0              0
+u_jpeg_idct.u_idct_x.out_stg3_valid_q                                                                                                No                 seqshift     (1)* 2^(2)              0              0
+u_jpeg_idct.u_idct_x.out_stg2_idx_q[2:0]                                                                                             No                 seqshift     (3)* 2^(2)              0              0
+u_jpeg_idct.u_transpose.u_ram0.ram[31:0]                                                                                             No                     ram1    (32)* 2^(5)              0              0
+u_jpeg_idct.u_transpose.u_ram1.ram[31:0]                                                                                             No                     ram1    (32)* 2^(5)              0              0
+u_jpeg_idct.u_transpose.u_ram2.ram[31:0]                                                                                             No                     ram1    (32)* 2^(5)              0              0
+u_jpeg_idct.u_transpose.u_ram3.ram[31:0]                                                                                             No                     ram1    (32)* 2^(5)              0              0
+u_jpeg_idct.u_idct_y.out_stg3_valid_q                                                                                                No                 seqshift     (1)* 2^(2)              0              0
+u_jpeg_idct.u_idct_y.out_stg2_idx_q[2:0]                                                                                             No                 seqshift     (3)* 2^(2)              0              0
+u_jpeg_idct.u_idct_y.outport_idx_o_1[5:0]                                                                                            No                      rom     (6)* 2^(6)              0              0
+u_jpeg_idct.u_id_fifo.ram_q[31:0]                                                                                                    No                     ram1    (32)* 2^(3)              0              0

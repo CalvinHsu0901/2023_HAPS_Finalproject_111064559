@@ -1,0 +1,130 @@
+#For partition
+tdm_control -type hstdm
+tdm_control -hstdm_bit_rate 1400
+tdm_control -qualification_mode  all
+#tdm_control -max_ratio 16
+tdm_control -max_ratio 8 
+
+#cell assign
+bin_attribute {FB1.uC FB1.uD} -locked
+#assign_cell {cnt_inst1 cnt_inst2} {FB1.uA}
+#assign_cell {led_inst1 led_inst2} {FB1.uB}
+
+#Global clock assign
+assign_global_net {clk_i} {GCLK1}
+
+#reset
+assign_virtual_port -port {rst_i} -type USR_LOCAL_RESET -bin {FB1.uA}
+reset_synchronize -toplevel_net {rst_i} -clock {clk_i} -init {0} -extra_pipeline_stages {2}
+
+#TOP IO assign
+#B5~B7
+#ABCD
+#2~11
+
+#----------------------B5----------------------
+assign_port {inport_accept_o} {TOP_IO_HT3_FB1_B5/A[2]}
+assign_port {outport_valid_o} {TOP_IO_HT3_FB1_B5/A[3]}
+assign_port {outport_width_o[0]} {TOP_IO_HT3_FB1_B5/A[4]}
+assign_port {outport_width_o[1]} {TOP_IO_HT3_FB1_B5/A[5]}
+assign_port {outport_width_o[2]} {TOP_IO_HT3_FB1_B5/A[6]}
+assign_port {outport_width_o[3]} {TOP_IO_HT3_FB1_B5/A[7]}
+assign_port {outport_width_o[4]} {TOP_IO_HT3_FB1_B5/A[8]}
+assign_port {outport_width_o[5]} {TOP_IO_HT3_FB1_B5/A[9]}
+assign_port {outport_width_o[6]} {TOP_IO_HT3_FB1_B5/A[10]}
+assign_port {outport_width_o[7]} {TOP_IO_HT3_FB1_B5/A[11]}
+
+assign_port {outport_width_o[8]} {TOP_IO_HT3_FB1_B5/B[2]}
+assign_port {outport_width_o[9]} {TOP_IO_HT3_FB1_B5/B[3]}
+assign_port {outport_width_o[10]} {TOP_IO_HT3_FB1_B5/B[4]}
+assign_port {outport_width_o[11]} {TOP_IO_HT3_FB1_B5/B[5]}
+assign_port {outport_width_o[12]} {TOP_IO_HT3_FB1_B5/B[6]}
+assign_port {outport_width_o[13]} {TOP_IO_HT3_FB1_B5/B[7]}
+assign_port {outport_width_o[14]} {TOP_IO_HT3_FB1_B5/B[8]}
+assign_port {outport_width_o[15]} {TOP_IO_HT3_FB1_B5/B[9]}
+assign_port {outport_height_o[0]} {TOP_IO_HT3_FB1_B5/B[10]}
+assign_port {outport_height_o[1]} {TOP_IO_HT3_FB1_B5/B[11]}
+
+assign_port {outport_height_o[2]} {TOP_IO_HT3_FB1_B5/C[2]}
+assign_port {outport_height_o[3]} {TOP_IO_HT3_FB1_B5/C[3]}
+assign_port {outport_height_o[4]} {TOP_IO_HT3_FB1_B5/C[4]}
+assign_port {outport_height_o[5]} {TOP_IO_HT3_FB1_B5/C[5]}
+assign_port {outport_height_o[6]} {TOP_IO_HT3_FB1_B5/C[6]}
+assign_port {outport_height_o[7]} {TOP_IO_HT3_FB1_B5/C[7]}
+assign_port {outport_height_o[8]} {TOP_IO_HT3_FB1_B5/C[8]}
+assign_port {outport_height_o[9]} {TOP_IO_HT3_FB1_B5/C[9]}
+assign_port {outport_height_o[10]} {TOP_IO_HT3_FB1_B5/C[10]}
+assign_port {outport_height_o[11]} {TOP_IO_HT3_FB1_B5/C[11]}
+
+assign_port {outport_height_o[12]} {TOP_IO_HT3_FB1_B5/D[2]}
+assign_port {outport_height_o[13]} {TOP_IO_HT3_FB1_B5/D[3]}
+assign_port {outport_height_o[14]} {TOP_IO_HT3_FB1_B5/D[4]}
+assign_port {outport_height_o[15]} {TOP_IO_HT3_FB1_B5/D[5]}
+assign_port {outport_pixel_x_o[0]} {TOP_IO_HT3_FB1_B5/D[6]}
+assign_port {outport_pixel_x_o[1]} {TOP_IO_HT3_FB1_B5/D[7]}
+assign_port {outport_pixel_x_o[2]} {TOP_IO_HT3_FB1_B5/D[8]}
+assign_port {outport_pixel_x_o[3]} {TOP_IO_HT3_FB1_B5/D[9]}
+assign_port {outport_pixel_x_o[4]} {TOP_IO_HT3_FB1_B5/D[10]}
+assign_port {outport_pixel_x_o[5]} {TOP_IO_HT3_FB1_B5/D[11]}
+#----------------------------------------------
+
+#----------------------B6----------------------
+assign_port {outport_pixel_x_o[6]} {TOP_IO_HT3_FB1_B6/A[2]}
+assign_port {outport_pixel_x_o[7]} {TOP_IO_HT3_FB1_B6/A[3]}
+assign_port {outport_pixel_x_o[8]} {TOP_IO_HT3_FB1_B6/A[4]}
+assign_port {outport_pixel_x_o[9]} {TOP_IO_HT3_FB1_B6/A[5]}
+assign_port {outport_pixel_x_o[10]} {TOP_IO_HT3_FB1_B6/A[6]}
+assign_port {outport_pixel_x_o[11]} {TOP_IO_HT3_FB1_B6/A[7]}
+assign_port {outport_pixel_x_o[12]} {TOP_IO_HT3_FB1_B6/A[8]}
+assign_port {outport_pixel_x_o[13]} {TOP_IO_HT3_FB1_B6/A[9]}
+assign_port {outport_pixel_x_o[14]} {TOP_IO_HT3_FB1_B6/A[10]}
+assign_port {outport_pixel_x_o[15]} {TOP_IO_HT3_FB1_B6/A[11]}
+
+assign_port {outport_pixel_y_o[0]} {TOP_IO_HT3_FB1_B6/B[2]}
+assign_port {outport_pixel_y_o[1]} {TOP_IO_HT3_FB1_B6/B[3]}
+assign_port {outport_pixel_y_o[2]} {TOP_IO_HT3_FB1_B6/B[4]}
+assign_port {outport_pixel_y_o[3]} {TOP_IO_HT3_FB1_B6/B[5]}
+assign_port {outport_pixel_y_o[4]} {TOP_IO_HT3_FB1_B6/B[6]}
+assign_port {outport_pixel_y_o[5]} {TOP_IO_HT3_FB1_B6/B[7]}
+assign_port {outport_pixel_y_o[6]} {TOP_IO_HT3_FB1_B6/B[8]}
+assign_port {outport_pixel_y_o[7]} {TOP_IO_HT3_FB1_B6/B[9]}
+assign_port {outport_pixel_y_o[8]} {TOP_IO_HT3_FB1_B6/B[10]}
+assign_port {outport_pixel_y_o[9]} {TOP_IO_HT3_FB1_B6/B[11]}
+
+assign_port {outport_pixel_y_o[10]} {TOP_IO_HT3_FB1_B6/C[2]}
+assign_port {outport_pixel_y_o[11]} {TOP_IO_HT3_FB1_B6/C[3]}
+assign_port {outport_pixel_y_o[12]} {TOP_IO_HT3_FB1_B6/C[4]}
+assign_port {outport_pixel_y_o[13]} {TOP_IO_HT3_FB1_B6/C[5]}
+assign_port {outport_pixel_y_o[14]} {TOP_IO_HT3_FB1_B6/C[6]}
+assign_port {outport_pixel_y_o[15]} {TOP_IO_HT3_FB1_B6/C[7]}
+assign_port {outport_pixel_r_o[0]} {TOP_IO_HT3_FB1_B6/C[8]}
+assign_port {outport_pixel_r_o[1]} {TOP_IO_HT3_FB1_B6/C[9]}
+assign_port {outport_pixel_r_o[2]} {TOP_IO_HT3_FB1_B6/C[10]}
+assign_port {outport_pixel_r_o[3]} {TOP_IO_HT3_FB1_B6/C[11]}
+
+assign_port {outport_pixel_r_o[4]} {TOP_IO_HT3_FB1_B6/D[2]}
+assign_port {outport_pixel_r_o[5]} {TOP_IO_HT3_FB1_B6/D[3]}
+assign_port {outport_pixel_r_o[6]} {TOP_IO_HT3_FB1_B6/D[4]}
+assign_port {outport_pixel_r_o[7]} {TOP_IO_HT3_FB1_B6/D[5]}
+assign_port {outport_pixel_g_o[0]} {TOP_IO_HT3_FB1_B6/D[6]}
+assign_port {outport_pixel_g_o[1]} {TOP_IO_HT3_FB1_B6/D[7]}
+assign_port {outport_pixel_g_o[2]} {TOP_IO_HT3_FB1_B6/D[8]}
+assign_port {outport_pixel_g_o[3]} {TOP_IO_HT3_FB1_B6/D[9]}
+assign_port {outport_pixel_g_o[4]} {TOP_IO_HT3_FB1_B6/D[10]}
+assign_port {outport_pixel_g_o[5]} {TOP_IO_HT3_FB1_B6/D[11]}
+#----------------------------------------------
+
+#----------------------B7----------------------
+assign_port {outport_pixel_g_o[6]} {TOP_IO_HT3_FB1_B7/A[2]}
+assign_port {outport_pixel_g_o[7]} {TOP_IO_HT3_FB1_B7/A[3]}
+assign_port {outport_pixel_b_o[0]} {TOP_IO_HT3_FB1_B7/A[4]}
+assign_port {outport_pixel_b_o[1]} {TOP_IO_HT3_FB1_B7/A[5]}
+assign_port {outport_pixel_b_o[2]} {TOP_IO_HT3_FB1_B7/A[6]}
+assign_port {outport_pixel_b_o[3]} {TOP_IO_HT3_FB1_B7/A[7]}
+assign_port {outport_pixel_b_o[4]} {TOP_IO_HT3_FB1_B7/A[8]}
+assign_port {outport_pixel_b_o[5]} {TOP_IO_HT3_FB1_B7/A[9]}
+assign_port {outport_pixel_b_o[6]} {TOP_IO_HT3_FB1_B7/A[10]}
+assign_port {outport_pixel_b_o[7]} {TOP_IO_HT3_FB1_B7/A[11]}
+
+assign_port {idle_o} {TOP_IO_HT3_FB1_B7/B[2]}
+#----------------------------------------------

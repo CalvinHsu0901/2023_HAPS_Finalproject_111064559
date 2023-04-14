@@ -1,0 +1,122 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l vlogan.log -full64 -sverilog +define+XTOR_SVS_PROTOCOMPILER_FLOW -work work -full64
+
+all :		_VCSgd_nGFE7b_1.db \
+	_VCSgd_NzhCqc_1.db \
+	_VCSgd_9WEvXc_1.db \
+	_VCSgd_FFCube_1.db \
+	_VCSgd_GAObzb_1.db \
+	_VCSgd_T7hss_1.db \
+	_VCSgd_YGPADc_1.db \
+	_VCSgd_6zO5Yd_1.db \
+	_VCSgd_A3DHX_1.db \
+	_VCSgd_dKjR7_1.db \
+	_VCSgd_CD2LLb_1.db \
+	_VCSgd_OH79R_1.db \
+	_VCSgd_ZLpRZc_1.db \
+	_VCSgd_MyREyb_1.db \
+	_VCSgd_83mxzd_1.db \
+	_VCSgd_Tc0VEd_1.db \
+	_VCSgd_25oS5b_1.db \
+	_VCSgd_1veIwc_1.db \
+	_VCSgd_IAzrMe_1.db \
+	_VCSgd_4GlTJe_1.db \
+	_VCSgd_4JTt_1.db \
+	_VCSgd_GRcEGb_1.db \
+	_VCSgd_Sdb7Ab_1.db \
+
+
+
+_VCSgd_nGFE7b_1.db :	./src/top.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/top.v
+
+
+_VCSgd_NzhCqc_1.db :	./src/jpeg_bitbuffer.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_bitbuffer.v
+
+
+_VCSgd_9WEvXc_1.db :	./src/jpeg_dht.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dht.v
+
+
+_VCSgd_FFCube_1.db :	./src/jpeg_dht_std_cx_ac.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dht_std_cx_ac.v
+
+
+_VCSgd_GAObzb_1.db :	./src/jpeg_dht_std_cx_dc.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dht_std_cx_dc.v
+
+
+_VCSgd_T7hss_1.db :	./src/jpeg_dht_std_y_ac.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dht_std_y_ac.v
+
+
+_VCSgd_YGPADc_1.db :	./src/jpeg_dht_std_y_dc.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dht_std_y_dc.v
+
+
+_VCSgd_6zO5Yd_1.db :	./src/jpeg_dqt.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_dqt.v
+
+
+_VCSgd_A3DHX_1.db :	./src/jpeg_idct.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct.v
+
+
+_VCSgd_dKjR7_1.db :	./src/jpeg_idct_fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_fifo.v
+
+
+_VCSgd_CD2LLb_1.db :	./src/jpeg_idct_ram.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_ram.v
+
+
+_VCSgd_OH79R_1.db :	./src/jpeg_idct_ram_dp.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_ram_dp.v
+
+
+_VCSgd_ZLpRZc_1.db :	./src/jpeg_idct_transpose.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_transpose.v
+
+
+_VCSgd_MyREyb_1.db :	./src/jpeg_idct_transpose_ram.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_transpose_ram.v
+
+
+_VCSgd_83mxzd_1.db :	./src/jpeg_idct_x.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_x.v
+
+
+_VCSgd_Tc0VEd_1.db :	./src/jpeg_idct_y.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_idct_y.v
+
+
+_VCSgd_25oS5b_1.db :	./src/jpeg_input.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_input.v
+
+
+_VCSgd_1veIwc_1.db :	./src/jpeg_mcu_id.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_mcu_id.v
+
+
+_VCSgd_IAzrMe_1.db :	./src/jpeg_mcu_proc.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_mcu_proc.v
+
+
+_VCSgd_4GlTJe_1.db :	./src/jpeg_output.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_output.v
+
+
+_VCSgd_4JTt_1.db :	./src/jpeg_output_cx_ram.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_output_cx_ram.v
+
+
+_VCSgd_GRcEGb_1.db :	./src/jpeg_output_fifo.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_output_fifo.v
+
+
+_VCSgd_Sdb7Ab_1.db :	./src/jpeg_output_y_ram.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/jpeg_output_y_ram.v
+
+

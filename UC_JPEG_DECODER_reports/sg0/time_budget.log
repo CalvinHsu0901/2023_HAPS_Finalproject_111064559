@@ -1,0 +1,553 @@
+# Fri Apr 14 21:58:36 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|sg0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 238MB peak: 238MB)
+
+@N: MF913 |Option synthesis_strategy=fast is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+@N: MF119 |Unified Time Budget flow enabled 
+
+Start loading fpga timing model (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 259MB)
+
+
+Finished loading fpga timing model (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 784MB peak: 784MB)
+
+
+Finished insertion of fpga timing model (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 785MB peak: 785MB)
+
+@N: MF404 |Running Normal timing estimation with effort level 'LOW'
+
+Finished time budget netlist preparation (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 787MB peak: 787MB)
+
+
+Finished writer setup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 787MB peak: 787MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 787MB peak: 787MB)
+
+@N: MT649 |During time budgeting, Vivado latch mode is off. 
+@N: MT650 |During time budgeting, latch-based time borrowing is disabled. 
+@N: MT615 |Found clock clk_i with period 45.00ns 
+
+
+@S0 |##### START OF TIMING REPORT #####[
+# Timing report written on Fri Apr 14 21:58:43 2023
+#
+
+
+Top view:               top
+Requested Frequency:    22.2 MHz
+Wire load mode:         top
+Paths requested:        5
+The system contains the following FPGAs:
+    FB1.uB : XCVU19PFSVA3824, speedgrade -1-e
+    FB1.uA : XCVU19PFSVA3824, speedgrade -1-e
+Constraint File(s):    /home/m111/m111064559/synopsys_haps/lab/Final/design.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+
+@S0.0 |Performance Summary
+*******************
+
+
+Worst slack in design: 39.039
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group           
+--------------------------------------------------------------------------------------------------------------------
+clk_i              22.2 MHz      236.8 MHz     45.000        4.223         40.777      declared     default_clkgroup
+System             1.0 MHz       140.3 MHz     1000.000      7.126         992.874     system       system_clkgroup 
+====================================================================================================================
+
+
+
+
+
+@S0.0 |Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System  |  1000.000    992.874  |  No paths    -      |  No paths    -      |  No paths    -    
+System    clk_i   |  45.000      39.611   |  No paths    -      |  No paths    -      |  No paths    -    
+clk_i     System  |  45.000      39.040   |  No paths    -      |  No paths    -      |  No paths    -    
+clk_i     clk_i   |  45.000      40.777   |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port                  Starting            User           Arrival     Required           
+Name                  Reference           Constraint     Time        Time         Slack 
+                      Clock                                                             
+----------------------------------------------------------------------------------------
+clk_i                 NA                  NA             NA          NA           NA    
+inport_data_i[0]      System (rising)     NA             0.000       39.828       39.828
+inport_data_i[1]      System (rising)     NA             0.000       39.819       39.819
+inport_data_i[2]      System (rising)     NA             0.000       39.866       39.866
+inport_data_i[3]      System (rising)     NA             0.000       39.833       39.833
+inport_data_i[4]      System (rising)     NA             0.000       39.821       39.821
+inport_data_i[5]      System (rising)     NA             0.000       39.869       39.869
+inport_data_i[6]      System (rising)     NA             0.000       39.828       39.828
+inport_data_i[7]      System (rising)     NA             0.000       39.750       39.750
+inport_data_i[8]      System (rising)     NA             0.000       39.828       39.828
+inport_data_i[9]      System (rising)     NA             0.000       39.810       39.810
+inport_data_i[10]     System (rising)     NA             0.000       39.860       39.860
+inport_data_i[11]     System (rising)     NA             0.000       39.833       39.833
+inport_data_i[12]     System (rising)     NA             0.000       39.818       39.818
+inport_data_i[13]     System (rising)     NA             0.000       39.863       39.863
+inport_data_i[14]     System (rising)     NA             0.000       39.822       39.822
+inport_data_i[15]     System (rising)     NA             0.000       39.747       39.747
+inport_data_i[16]     System (rising)     NA             0.000       39.831       39.831
+inport_data_i[17]     System (rising)     NA             0.000       39.816       39.816
+inport_data_i[18]     System (rising)     NA             0.000       39.869       39.869
+inport_data_i[19]     System (rising)     NA             0.000       39.833       39.833
+inport_data_i[20]     System (rising)     NA             0.000       39.821       39.821
+inport_data_i[21]     System (rising)     NA             0.000       39.869       39.869
+inport_data_i[22]     System (rising)     NA             0.000       39.831       39.831
+inport_data_i[23]     System (rising)     NA             0.000       39.750       39.750
+inport_data_i[24]     System (rising)     NA             0.000       39.825       39.825
+inport_data_i[25]     System (rising)     NA             0.000       39.810       39.810
+inport_data_i[26]     System (rising)     NA             0.000       39.860       39.860
+inport_data_i[27]     System (rising)     NA             0.000       39.836       39.836
+inport_data_i[28]     System (rising)     NA             0.000       39.818       39.818
+inport_data_i[29]     System (rising)     NA             0.000       39.866       39.866
+inport_data_i[30]     System (rising)     NA             0.000       39.822       39.822
+inport_data_i[31]     System (rising)     NA             0.000       39.747       39.747
+inport_last_i         System (rising)     NA             0.000       41.868       41.868
+inport_strb_i[0]      System (rising)     NA             0.000       39.611       39.611
+inport_strb_i[1]      System (rising)     NA             0.000       39.614       39.614
+inport_strb_i[2]      System (rising)     NA             0.000       39.611       39.611
+inport_strb_i[3]      System (rising)     NA             0.000       39.614       39.614
+inport_valid_i        System (rising)     NA             0.000       41.211       41.211
+outport_accept_i      System (rising)     NA             0.000       39.958       39.958
+========================================================================================
+
+
+Output Ports: 
+
+Port                      Starting           User           Arrival     Required           
+Name                      Reference          Constraint     Time        Time         Slack 
+                          Clock                                                            
+-------------------------------------------------------------------------------------------
+idle_o                    clk_i (rising)     NA             3.516       45.000       41.484
+inport_accept_o           clk_i (rising)     NA             5.960       45.000       39.039
+outport_height_o[0]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[1]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[2]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[3]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[4]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[5]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[6]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[7]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[8]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[9]       clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[10]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[11]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[12]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[13]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[14]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_height_o[15]      clk_i (rising)     NA             3.479       45.000       41.521
+outport_pixel_b_o[0]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[1]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[2]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[3]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[4]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[5]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[6]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_b_o[7]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[0]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[1]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[2]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[3]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[4]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[5]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[6]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_g_o[7]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[0]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[1]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[2]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[3]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[4]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[5]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[6]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_r_o[7]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[0]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[1]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[2]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[3]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[4]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[5]      clk_i (rising)     NA             3.434       45.000       41.566
+outport_pixel_x_o[6]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[7]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[8]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[9]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[10]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[11]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[12]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[13]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[14]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_x_o[15]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[0]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[1]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[2]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[3]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[4]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[5]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[6]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[7]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[8]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[9]      clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[10]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[11]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[12]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[13]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[14]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_pixel_y_o[15]     clk_i (rising)     NA             3.440       45.000       41.560
+outport_valid_o           clk_i (rising)     NA             3.479       45.000       41.521
+outport_width_o[0]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[1]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[2]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[3]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[4]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[5]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[6]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[7]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[8]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[9]        clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[10]       clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[11]       clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[12]       clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[13]       clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[14]       clk_i (rising)     NA             3.510       45.000       41.490
+outport_width_o[15]       clk_i (rising)     NA             3.510       45.000       41.490
+===========================================================================================
+
+
+
+====================================
+@S0.0 |Detailed Report for Clock: clk_i
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                               Starting                                                               Arrival           
+Instance                                       Reference     Type     Pin     Net                                     Time        Slack 
+                                               Clock                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q[1]     clk_i         FD       Q       dut_inst.u_jpeg_input.byte_idx_q[1]     0.817       39.039
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q[0]     clk_i         FD       Q       dut_inst.u_jpeg_input.byte_idx_q[0]     0.817       39.494
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[4]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[4]       0.817       39.565
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[5]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[5]       0.817       39.565
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[6]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[6]       0.817       39.565
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[7]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[7]       0.817       39.565
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[0]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[0]       0.817       39.692
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[1]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[1]       0.817       39.692
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[2]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[2]       0.817       39.692
+FB1.uB.dut_inst.u_jpeg_input.last_b_q[3]       clk_i         FDR      Q       dut_inst.u_jpeg_input.last_b_q[3]       0.817       39.692
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                    Starting                                                                               Required           
+Instance                                            Reference     Type     Pin                 Net                                         Time         Slack 
+                                                    Clock                                                                                                     
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+inport_accept_o                                     clk_i         Port     inport_accept_o     inport_accept_o                             45.000       39.039
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[0]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q       45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[1]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_0     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[2]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_1     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[3]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_2     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[4]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_3     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[5]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_4     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[6]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_5     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[7]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_6     45.803       40.777
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[8]     clk_i         FDR      D                   dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_7     45.803       40.777
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      45.000
+    = Required time:                         45.000
+
+    - Propagation time:                      5.194
+    - Clock delay at starting point:         0.767
+    = Slack (critical) :                     39.040
+
+    Number of logic level(s):                6
+    Starting point:                          FB1.uB.dut_inst.u_jpeg_input.byte_idx_q[1] / Q
+    Ending point:                            inport_accept_o / inport_accept_o
+    The start point is clocked by            clk_i [rising] (rise=0.000 fall=22.500 period=45.000) on pin C
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                           Pin                 Pin               Arrival     No. of    
+Name                                                            Type     Name                Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q[1]                      FD       Q                   Out     0.050     0.817 r     -         
+dut_inst.u_jpeg_input.byte_idx_q[1]                             Net      -                   -       0.523     -           18        
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q_RNIU76H[1]              LUT5     I0                  In      -         1.340 r     -         
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q_RNIU76H[1]              LUT5     O                   Out     0.092     1.432 r     -         
+dut_inst.N_243                                                  Net      -                   -       0.478     -           12        
+FB1.uB.dut_inst.u_jpeg_input.img_cr_factor_q_RNILNU12_o6[6]     LUT3     I2                  In      -         1.910 r     -         
+FB1.uB.dut_inst.u_jpeg_input.img_cr_factor_q_RNILNU12_o6[6]     LUT3     O                   Out     0.047     1.957 r     -         
+dut_inst.dsp_join_kb[14]                                        Net      -                   -       0.455     -           9         
+FB1.uB.dut_inst.u_jpeg_input.token_pad_w                        LUT6     I5                  In      -         2.412 r     -         
+FB1.uB.dut_inst.u_jpeg_input.token_pad_w                        LUT6     O                   Out     0.054     2.466 f     -         
+dut_inst.u_jpeg_input.token_pad_w                               Net      -                   -       0.319     -           2         
+FB1.uB.dut_inst.u_jpeg_input.inport_accept_w                    LUT6     I5                  In      -         2.784 f     -         
+FB1.uB.dut_inst.u_jpeg_input.inport_accept_w                    LUT6     O                   Out     0.029     2.814 f     -         
+dut_inst.u_jpeg_input.inport_accept_w                           Net      -                   -       0.501     -           15        
+FB1.uB.dut_inst.u_jpeg_input.inport_accept_o                    LUT4     I3                  In      -         3.314 f     -         
+FB1.uB.dut_inst.u_jpeg_input.inport_accept_o                    LUT4     O                   Out     0.029     3.343 f     -         
+dut_inst.inport_accept_o_c                                      Net      -                   -       0.273     -           1         
+FB1.uB.dut_inst.inport_accept_o_obuf                            OBUF     I                   In      -         3.616 f     -         
+FB1.uB.dut_inst.inport_accept_o_obuf                            OBUF     O                   Out     1.026     4.643 r     -         
+inport_accept_o                                                 Net      -                   -       1.318     -           1         
+inport_accept_o                                                 Port     inport_accept_o     Out     -         5.960 r     -         
+=====================================================================================================================================
+Total path delay (propagation time + setup) of 5.194 is 1.327(25.5%) logic and 3.867(74.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Start clock path:
+
+Instance / Net                                           Pin       Pin               Arrival     No. of    
+Name                                           Type      Name      Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Start Clock :                                  clk_i                                                       
+------------                                                                                               
+clk_i                                          Port      clk_i     In      -         0.000 r     -         
+clk_i                                          Net       -         -       0.000     -           7         
+FB1.uB.dut_inst.clk_i_ibuf_iso                 IBUFG     I         In      -         0.000 r     -         
+FB1.uB.dut_inst.clk_i_ibuf_iso                 IBUFG     O         Out     0.509     0.509 r     -         
+FB1.uB.dut_inst.clk_i_ibuf_iso                 Net       -         -       0.157     -           1         
+FB1.uB.dut_inst.clk_i_ibuf                     BUFG      I         In      -         0.666 r     -         
+FB1.uB.dut_inst.clk_i_ibuf                     BUFG      O         Out     0.101     0.767 r     -         
+FB1.uB.dut_inst.clk_i_c                        Net       -         -       0.000     -           511       
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q[1]     FD        C         In      -         0.767 r     -         
+===========================================================================================================
+
+
+
+
+====================================
+@S0.0 |Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                           Arrival           
+Instance                Reference     Type     Pin                   Net                   Time        Slack 
+                        Clock                                                                                
+-------------------------------------------------------------------------------------------------------------
+inport_strb_i[3:0]      System        Port     inport_strb_i[0]      inport_strb_i[0]      0.000       39.611
+inport_strb_i[3:0]      System        Port     inport_strb_i[2]      inport_strb_i[2]      0.000       39.611
+inport_strb_i[3:0]      System        Port     inport_strb_i[1]      inport_strb_i[1]      0.000       39.614
+inport_strb_i[3:0]      System        Port     inport_strb_i[3]      inport_strb_i[3]      0.000       39.614
+inport_data_i[31:0]     System        Port     inport_data_i[15]     inport_data_i[15]     0.000       39.747
+inport_data_i[31:0]     System        Port     inport_data_i[31]     inport_data_i[31]     0.000       39.747
+inport_data_i[31:0]     System        Port     inport_data_i[7]      inport_data_i[7]      0.000       39.750
+inport_data_i[31:0]     System        Port     inport_data_i[23]     inport_data_i[23]     0.000       39.750
+inport_data_i[31:0]     System        Port     inport_data_i[9]      inport_data_i[9]      0.000       39.810
+inport_data_i[31:0]     System        Port     inport_data_i[25]     inport_data_i[25]     0.000       39.810
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                    Starting                                                                   Required           
+Instance                                            Reference     Type     Pin     Net                                         Time         Slack 
+                                                    Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[0]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q       45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[1]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_0     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[2]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_1     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[3]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_2     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[4]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_3     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[5]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_4     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[6]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_5     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[7]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_6     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[8]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_7     45.803       39.611
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[9]     System        FDR      D       dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_8     45.803       39.611
+==================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      45.000
+    - Setup time:                            -0.036
+    + Clock delay at ending point:           0.767
+    = Required time:                         45.803
+
+    - Propagation time:                      6.191
+    = Slack (non-critical) :                 39.611
+
+    Number of logic level(s):                11
+    Starting point:                          inport_strb_i[3:0] / inport_strb_i[0]
+    Ending point:                            FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            clk_i [rising] (rise=0.000 fall=22.500 period=45.000) on pin C
+
+Instance / Net                                                           Pin                  Pin               Arrival     No. of    
+Name                                                            Type     Name                 Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------
+inport_strb_i[3:0]                                              Port     inport_strb_i[0]     In      0.000     0.000 r     -         
+inport_strb_i[0]                                                Net      -                    -       1.324     -           1         
+FB1.uB.dut_inst.inport_strb_i_ibuf[0]                           IBUF     I                    In      -         1.324 r     -         
+FB1.uB.dut_inst.inport_strb_i_ibuf[0]                           IBUF     O                    Out     0.790     2.114 r     -         
+dut_inst.inport_strb_i_c[0]                                     Net      -                    -       0.440     -           8         
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q_RNIG9UK[1]              LUT5     I3                   In      -         2.554 r     -         
+FB1.uB.dut_inst.u_jpeg_input.byte_idx_q_RNIG9UK[1]              LUT5     O                    Out     0.047     2.601 r     -         
+dut_inst.N_236                                                  Net      -                    -       0.478     -           12        
+FB1.uB.dut_inst.u_jpeg_input.img_cr_factor_q_RNIQSU12_o6[7]     LUT3     I2                   In      -         3.079 r     -         
+FB1.uB.dut_inst.u_jpeg_input.img_cr_factor_q_RNIQSU12_o6[7]     LUT3     O                    Out     0.044     3.123 r     -         
+dut_inst.dsp_join_kb[15]                                        Net      -                    -       0.440     -           8         
+FB1.uB.dut_inst.u_jpeg_input.token_eoi_w_2_0                    LUT2     I1                   In      -         3.563 r     -         
+FB1.uB.dut_inst.u_jpeg_input.token_eoi_w_2_0                    LUT2     O                    Out     0.029     3.592 r     -         
+dut_inst.u_jpeg_input.token_eoi_w_2_0                           Net      -                    -       0.115     -           1         
+FB1.uB.dut_inst.u_jpeg_input.token_eoi_w                        LUT6     I5                   In      -         3.707 r     -         
+FB1.uB.dut_inst.u_jpeg_input.token_eoi_w                        LUT6     O                    Out     0.029     3.736 r     -         
+dut_inst.u_jpeg_input.token_eoi_w                               Net      -                    -       0.608     -           33        
+FB1.uB.dut_inst.u_jpeg_mcu_proc.un30_0_iv_RNO[1]                LUT5     I4                   In      -         4.343 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.un30_0_iv_RNO[1]                LUT5     O                    Out     0.029     4.372 r     -         
+dut_inst.u_jpeg_mcu_proc.un18_m[1]                              Net      -                    -       0.115     -           1         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.un30_0_iv[1]                    LUT6     I5                   In      -         4.487 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.un30_0_iv[1]                    LUT6     O                    Out     0.029     4.516 r     -         
+dut_inst.u_jpeg_mcu_proc.un30[1]                                Net      -                    -       0.115     -           1         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.next_state_r[1]                 LUT4     I3                   In      -         4.631 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.next_state_r[1]                 LUT4     O                    Out     0.029     4.660 r     -         
+dut_inst.u_jpeg_mcu_proc.next_state_r[1]                        Net      -                    -       0.319     -           2         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.start_block_w                   LUT6     I2                   In      -         4.979 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.start_block_w                   LUT6     O                    Out     0.092     5.071 r     -         
+dut_inst.u_jpeg_mcu_proc.start_block_w                          Net      -                    -       0.455     -           9         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.un1_start_of_block_i_5     LUT6     I5                   In      -         5.526 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.un1_start_of_block_i_5     LUT6     O                    Out     0.029     5.555 r     -         
+dut_inst.u_jpeg_mcu_proc.u_id.un1_start_of_block_i_5            Net      -                    -       0.607     -           29        
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_e[0]               LUT4     I3                   In      -         6.162 r     -         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q_e[0]               LUT4     O                    Out     0.029     6.191 f     -         
+dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q                           Net      -                    -       0.000     -           1         
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[0]                 FDR      D                    In      -         6.191 f     -         
+======================================================================================================================================
+Total path delay (propagation time + setup) of 6.155 is 1.141(18.5%) logic and 5.014(81.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+End clock path:
+
+Instance / Net                                                Pin       Pin               Arrival     No. of    
+Name                                                Type      Name      Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+Start Clock :                                       clk_i                                                       
+------------                                                                                                    
+clk_i                                               Port      clk_i     In      -         0.000 r     -         
+clk_i                                               Net       -         -       0.000     -           7         
+FB1.uB.dut_inst.clk_i_ibuf_iso                      IBUFG     I         In      -         0.000 r     -         
+FB1.uB.dut_inst.clk_i_ibuf_iso                      IBUFG     O         Out     0.509     0.509 r     -         
+FB1.uB.dut_inst.clk_i_ibuf_iso                      Net       -         -       0.157     -           1         
+FB1.uB.dut_inst.clk_i_ibuf                          BUFG      I         In      -         0.666 r     -         
+FB1.uB.dut_inst.clk_i_ibuf                          BUFG      O         Out     0.101     0.767 r     -         
+FB1.uB.dut_inst.clk_i_c                             Net       -         -       0.000     -           511       
+FB1.uB.dut_inst.u_jpeg_mcu_proc.u_id.x_idx_q[0]     FDR       C         In      -         0.767 r     -         
+================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+@S0.0 |Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1247MB peak: 1247MB)
+
+
+Starting Time budgeting (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1247MB peak: 1247MB)
+
+
+Starting CTB multihop constraint generation  (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1247MB peak: 1247MB)
+
+
+Time-Budgeting stats:
+-----------------------------------------------------
+	 # partitions  			=          3
+	 # paths       			=          1
+		 # 2-hop paths     	=          1
+	 # timing segments 		=          2
+	 # logic segments  		=          2
+-----------------------------------------------------
+
+Finished CTB multihop constraint generation  (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1248MB peak: 1248MB)
+
+
+Finished Time budgeting (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1248MB peak: 1248MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 1248MB peak: 1248MB)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 1248MB peak: 1248MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Fri Apr 14 21:58:43 2023
+
+###########################################################]

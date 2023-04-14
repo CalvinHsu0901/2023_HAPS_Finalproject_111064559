@@ -1,0 +1,360 @@
+
+                          HAPS (R) ProtoCompiler 100 
+
+               Version R-2020.12-SP1-1 for RHEL64 - Apr 08, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1/linux_a_64/mbin/protocompiler
+Install:     /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+Hostname:    ws26
+Date:        Thu Apr 13 10:55:17 2023
+Version:     R-2020.12-SP1-1
+
+Arguments:   -product protocompiler100
+ProductType: protocompiler100
+
+For command descriptions, use the following tools:
+- For syntax statements, enter "help  <command_name>"  in the Tcl shell
+- For detailed descriptions:
+   1. Select "Help->Help Topics"
+   2. Click the Search tab
+   3. Enter <command_name>
+
+
+License checkout: ProtoCompiler100
+License: ProtoCompiler100 from server ws26 
+Licensed Vendor: All FPGA
+
+External Tools          Supported Version       Install Environment Variable
+Vivado                  2020.1                  XILINX_VIVADO=/usr/cadtool/csr5306/synopsys/xilinx_vivado/2021.1-ep9/tools/XILINX_VIVADO
+Formality               2020.09-SP5             FORMALITY=""
+Verdi                   R-2020.12-SP2-6         VERDI_HOME=/usr/cad/synopsys/verdi/2022.06
+VC Formal               2020.12-SP2-6           VC_STATIC_HOME=""
+Confpro                 2020.12-SP1-1           HAPS_INSTALL_DIR=/usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+Design Compiler         2020.09-SP5             DC_ROOT=""
+Design Ware             2020.09-SP5-5           SYNOPSYS=/usr/cad/synopsys/icc/cur
+  (Please make sure that DC_ROOT and SYNOPSYS points to the same location.)
+VCS                     2020.03-SP2-10          VCS_HOME=/usr/cadtool/csr5306/synopsys/vcs/Q-2020.03-SP2-10-T-20220405
+
+
+Note: Standard compile is no longer the recommended flow. Use Unified Compile for future projects.
+Using -top_module "top" as the base name of result files
+report rtl_diagnostics -srclist vlog_inputs.txt -top_module top -out rd0
+Running: compile_flow in foreground
+
+
+Running Flow: compile_flow (Compile HDL/EDIF) on datastate|root.rd0
+# Thu Apr 13 10:55:29 2023
+
+Running Flow: main_compile_processes (Main Compile Processes) on datastate|root.rd0
+# Thu Apr 13 10:55:29 2023
+
+Running Parallel Flow: compiler_db (Compile with Debug) on datastate|root.rd0
+# Thu Apr 13 10:55:29 2023
+
+Running: compiler (Compile Input) on datastate|root.rd0
+# Thu Apr 13 10:55:29 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root.rd0/distcomp0.tlg
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root.rd0/distcomp1.tlg
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root.rd0/incr_compile.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root.rd0/top_compiler.srr
+
+compiler completed
+# Thu Apr 13 10:55:32 2023
+
+Return Code: 0
+Run Time:00h:00m:03s
+Complete: Compile with Debug on datastate|root.rd0
+Complete: Main Compile Processes on datastate|root.rd0
+Complete: Compile HDL/EDIF on datastate|root.rd0
+To see "root.rd0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state root.rd0 (use "export file <filename>" to access them):
+  distcomp0.tlg: An incremental, partial HDL compilation log file that may allow early access to errors or other messages. (10:55:30 Apr 13 2023)
+  distcomp1.tlg: An incremental, partial HDL compilation log file that may allow early access to errors or other messages. (10:55:30 Apr 13 2023)
+  incr_compile.rpt: Incremental Compile Report (10:55:31 Apr 13 2023)
+  top_compiler.srr: RTL Diagnostics Report (10:55:31 Apr 13 2023)
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root/rd0.distcomp0.tlg
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root/rd0.distcomp1.tlg
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root/rd0.incr_compile.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/root/rd0.top_compiler.srr
+launch uc -utf uc_compile.utf -ucdb top_ucdb -v 2.0
+Running: Unified compile in foreground
+
+Running: Unified compile
+# Thu Apr 13 10:55:33 2023
+@E: UI234 |Unified compile database generation did not complete successfully. See "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/uc.log" for details.
+
+Job: "Unified compile" terminated with error status: 255
+See log file: "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/uc.log"
+# Thu Apr 13 10:55:35 2023
+
+Return Code: 255
+Run Time:00h:00m:02s
+  at line 7 of /home/m111/m111064559/synopsys_haps/lab/Final/run.tcl. Command was "launch uc -utf uc_compile.utf -ucdb top_ucdb -v 2.0"
+1
+launch uc -utf uc_compile.utf -ucdb top_ucdb -v 2.0
+Running: Unified compile in foreground
+
+Running: Unified compile
+# Thu Apr 13 10:59:18 2023
+@E: UI234 |Unified compile database generation did not complete successfully. See "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/uc.log" for details.
+
+Job: "Unified compile" terminated with error status: 255
+See log file: "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/uc.log"
+# Thu Apr 13 10:59:20 2023
+
+Return Code: 255
+Run Time:00h:00m:02s
+1
+launch uc -utf uc_compile.utf -ucdb top_ucdb -v 2.0
+Running: Unified compile in foreground
+
+Running: Unified compile
+# Thu Apr 13 11:02:11 2023
+
+Unified compile completed
+# Thu Apr 13 11:02:14 2023
+
+Return Code: 0
+Run Time:00h:00m:03s
+0
+File already added: "/home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb"
+run compile -ucdb top_ucdb -out c0
+Running: compile_flow in foreground
+
+
+Running Flow: compile_flow (Compile HDL/EDIF) on datastate|c0
+# Thu Apr 13 11:03:31 2023
+
+Running Flow: main_compile_processes (Main Compile Processes) on datastate|c0
+# Thu Apr 13 11:03:31 2023
+
+Running: identify_db_generator (Identify Database Generator) on datastate|c0
+# Thu Apr 13 11:03:31 2023
+Copied /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/compile/c0/../../../top_ucdb/uc.log to /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/uc.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_identify_db_generator.srr
+
+identify_db_generator completed
+# Thu Apr 13 11:03:34 2023
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running Parallel Flow: compiler_db (Compile with Debug) on datastate|c0
+# Thu Apr 13 11:03:34 2023
+
+Running: compiler (Compile Input) on datastate|c0
+# Thu Apr 13 11:03:34 2023
+Imported /home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/vcs.xcui
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/linker.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_comp.rt.csv
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/compile_summary.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_compiler.srr
+
+compiler completed
+# Thu Apr 13 11:03:45 2023
+
+Return Code: 0
+Run Time:00h:00m:11s
+Complete: Compile with Debug on datastate|c0
+Complete: Main Compile Processes on datastate|c0
+
+Running Parallel Flow: post_compile_processes (Post Compile Processes) on datastate|c0
+# Thu Apr 13 11:03:45 2023
+
+Running: multi_srs_gen (Multi-srs Generator) on datastate|c0
+# Thu Apr 13 11:03:45 2023
+
+Running Flow: post_compile_optimizations (Post Compile Optimizations) on datastate|c0
+# Thu Apr 13 11:03:45 2023
+
+Running: global_optimizer (Global Optimizer) on datastate|c0
+# Thu Apr 13 11:03:45 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_multi_srs_gen.srr
+
+multi_srs_gen completed
+# Thu Apr 13 11:03:45 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_multi_srs_gen.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+
+global_optimizer completed with warnings
+# Thu Apr 13 11:03:52 2023
+
+Return Code: 1
+Run Time:00h:00m:07s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+Complete: Post Compile Optimizations on datastate|c0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_opt.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/c0/top_port_consts.rpt
+Complete: Post Compile Processes on datastate|c0
+Complete: Compile HDL/EDIF on datastate|c0
+To see "c0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state c0 (use "export file <filename>" to access them):
+  uc.rpt: Unified Compiler Report (OUT OF DATE 11:02:13 Apr 13 2023)
+  top_identify_db_generator.srr: Pre-Instrument Log (11:03:32 Apr 13 2023)
+  linker.rpt: Summary of linker messages for components that did not bind (11:03:41 Apr 13 2023)
+  top_comp.rt.csv: Module Runtime Summary (11:03:41 Apr 13 2023)
+  compile_summary.rpt: Incremental Compiler Summary Report (11:03:43 Apr 13 2023)
+  top_compiler.srr: Compile Log (11:03:43 Apr 13 2023)
+  top_multi_srs_gen.srr: Multi-srs Generator Log (11:03:45 Apr 13 2023)
+  const_out_top.nle: Netlist editing script to propagate constants out of this module. (11:03:51 Apr 13 2023)
+  top_opt.srr: Post compilation optimization Log (11:03:51 Apr 13 2023)
+  top_port_consts.rpt: Constants driving top level ports. (11:03:51 Apr 13 2023)
+VIRTEX UltraScale+ FPGAs
+c0
+0
+File already added: "/home/m111/m111064559/synopsys_haps/lab/Final/board.tss"
+run pre_partition -tss board.tss -fdc design.fdc -area_est 1 -out pp0
+Running: target_system_spec_gen in foreground
+
+Running: target_system_spec_gen (Target System Spec Converter)
+# Thu Apr 13 11:26:16 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/incr_compile.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/tss.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/tss.rpt
+
+target_system_spec_gen completed
+# Thu Apr 13 11:26:27 2023
+
+Return Code: 0
+Run Time:00h:00m:11s
+System technology extracted from TSS: (Xilinx:HAPS-100)
+Running: pre_partition in foreground
+
+Warning: Expected input netlist 'lw-db.srs' does not match netlist 'top_post.srs' generated by previous state 'c0'.
+Previous state may have been run with incompatible options and should be rerun
+
+Running Flow: pre_partition (Prepartition Flow) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running Parallel Flow: partition_premap_estimation (Partition Premap and Estimate Area) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running Flow: partition_premap_clock_tree_gen (Partition Pre-Map and Clock Tree) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running Parallel Flow: distributed_constraint_apply_and_clock_tree_gen on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running: clock_tree_conversion (Clock Tree Conversion) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running: distributed_constraint_applier (Distributed Constraint Applier) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running Flow: distributed_prep_estimation (Distributed Prep and Estimation) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running Flow: distributed_prep (Distributed Ultra Flow Preparation) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+
+Running: od_constraint_applier (On Demand Constraint Applier) on datastate|pp0
+# Thu Apr 13 11:26:28 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/tss.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/tss.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition_constraints_application.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/syntax_constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/top_scck.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_est_constraints_application.srr
+
+clock_tree_conversion completed with warnings
+# Thu Apr 13 11:26:34 2023
+
+Return Code: 1
+Run Time:00h:00m:06s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/syntax_constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/top_scck.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition_constraints_application.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_est_constraints_application.srr
+
+od_constraint_applier completed
+# Thu Apr 13 11:26:50 2023
+
+Return Code: 0
+Run Time:00h:00m:22s
+Complete: Distributed Ultra Flow Preparation on datastate|pp0
+
+Running: estimate_area_job (Estimate Area) on datastate|pp0
+# Thu Apr 13 11:26:50 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition_constraints_application.srr
+
+distributed_constraint_applier completed with warnings
+# Thu Apr 13 11:26:55 2023
+
+Return Code: 1
+Run Time:00h:00m:27s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition_constraints_application.srr
+Complete: distributed_constraint_apply_and_clock_tree_gen on datastate|pp0
+
+Running: partition_premap (ProtoCompiler Pre_map) on datastate|pp0
+# Thu Apr 13 11:26:55 2023
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition_constraints_application.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/syntax_constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/top_scck.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/design_info.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/partitioner_timing_model.log
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition.srr
+
+partition_premap completed with warnings
+# Thu Apr 13 11:27:02 2023
+
+Return Code: 1
+Run Time:00h:00m:07s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition.srr
+Complete: Partition Pre-Map and Clock Tree on datastate|pp0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/constraint_check.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/pre_partition.srr
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/top.mem.rpt
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+
+estimate_area_job completed
+# Thu Apr 13 11:27:14 2023
+
+Return Code: 0
+Run Time:00h:00m:24s
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+Complete: Distributed Prep and Estimation on datastate|pp0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+Complete: Partition Premap and Estimate Area on datastate|pp0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+Complete: Prepartition Flow on datastate|pp0
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER_reports/pp0/area_estimation.log
+To see "pp0" state log details, open "/home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER.html" file from any standard browser.
+Reports and files available for state pp0 (use "export file <filename>" to access them):
+  incr_compile.rpt: Incremental Compile Report (OUT OF DATE 11:26:20 Apr 13 2023)
+  tss.log: Target system specification log (OUT OF DATE 11:26:27 Apr 13 2023)
+  tss.rpt: Target system specification report (OUT OF DATE 11:26:27 Apr 13 2023)
+  inferred_clocks.fdc: Clocks inferred by the timing engine. This file can be used to augment user-supplied fdc files. (11:26:33 Apr 13 2023)
+  area_est_constraints_application.srr: Area Est Constraint Application Log (11:26:49 Apr 13 2023)
+  pre_partition_constraints_application.srr: Prepartition Constraint Application Log (11:26:55 Apr 13 2023)
+  syntax_constraint_check.rpt: Syntax Constraint Check Report (11:26:55 Apr 13 2023)
+  top_scck.rpt: Constraint check report (11:26:55 Apr 13 2023)
+  design_info.rpt: Design Info Report. (11:27:01 Apr 13 2023)
+  hapsip_assign.pcf: HAPS IP Assignment File (11:27:01 Apr 13 2023)
+  partitioner_timing_model.log: Hierarchical timing models are used in the partitioner and router. Look here for warnings regarding unsupported timing models (11:27:01 Apr 13 2023)
+  constraint_check.rpt: Constraint Check Report (11:27:02 Apr 13 2023)
+  pre_partition.srr: Pre-partition Log (11:27:02 Apr 13 2023)
+  top.est: Area estimation file (11:27:13 Apr 13 2023)
+  top.mem.rpt: RAM/ROM mapping report (11:27:13 Apr 13 2023)
+  top_est.csv: Area estimation results (11:27:13 Apr 13 2023)
+  top_uniquified_est.csv: Area estimation results (11:27:13 Apr 13 2023)
+  area_estimation.log: Area Estimation Log (11:27:14 Apr 13 2023)
+VIRTEX UltraScale+ FPGAs
+Wrote /home/m111/m111064559/synopsys_haps/lab/Final/pp0_area/top.est
+exit status=0
+License checkin: ProtoCompiler100

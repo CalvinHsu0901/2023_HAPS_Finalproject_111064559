@@ -1,0 +1,146 @@
+# Fri Apr 14 21:54:29 2023
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS Linux 7 (Core)
+Hostname: ws26
+max virtual memory: unlimited (bytes)
+max user processes: 4096
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m111/m111064559/synopsys_haps/lab/Final/UC_JPEG_DECODER/|c0
+Synopsys Xilinx Technology Mapper, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 237MB peak: 237MB)
+
+Reading constraint file: /home/m111/m111064559/synopsys_haps/lab/Final/top_ucdb/cclock_map.tcl
+@N: MF914 |Option synthesis_strategy=routability is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Target platform is HAPS-100, running ProtoCompiler.
+
+@N: MF990 |On Demand Uniquification flow enabled 
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 259MB)
+
+NConnInternalConnection caching is on
+@W: BN132 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Removing sequential instance u_jpeg_idct.u_idct_y.mul4_b[6] because it is equivalent to instance u_jpeg_idct.u_idct_y.mul4_b[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_y.v":91:0:91:0|Removing sequential instance u_jpeg_idct.u_idct_y.mul4_b[4] because it is equivalent to instance u_jpeg_idct.u_idct_y.mul4_b[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Removing sequential instance u_jpeg_idct.u_idct_x.mul4_b[6] because it is equivalent to instance u_jpeg_idct.u_idct_x.mul4_b[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_x.v":91:0:91:0|Removing sequential instance u_jpeg_idct.u_idct_x.mul4_b[4] because it is equivalent to instance u_jpeg_idct.u_idct_x.mul4_b[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting functional verification of DisTri Cleanupfolded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Started DisTri Cleanup folded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Starting disabled tri cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished disabled tri cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished DisTri Cleanup folded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished functional verification of DisTri Cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Starting bidir resolution (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished bidir resolution (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+@N: BN362 :|Removing sequential instance ram_1[31:0] (in view: work.jpeg_output_cx_ram_ram_dp_256_8_0(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_cx_ram.v":520:0:520:0|Removing sequential instance ram_read0_q[31:0] (in view: work.jpeg_output_cx_ram_ram_dp_256_8_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ram_1[31:0] (in view: work.jpeg_output_y_ram_ram_dp_512_9(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_output_y_ram.v":224:0:224:0|Removing sequential instance ram_read0_q[31:0] (in view: work.jpeg_output_y_ram_ram_dp_512_9(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ram_1[15:0] (in view: work.jpeg_idct_ram_dp_0(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_ram_dp.v":71:0:71:0|Removing sequential instance ram_read0_q[15:0] (in view: work.jpeg_idct_ram_dp_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance ram_1[31:0] (in view: work.jpeg_idct_transpose_ram_0(verilog)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :"/home/m111/m111064559/synopsys_haps/lab/Final/./src/jpeg_idct_transpose_ram.v":71:0:71:0|Removing sequential instance ram_read0_q[31:0] (in view: work.jpeg_idct_transpose_ram_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Starting functional verification of DisTri Cleanupfolded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Started DisTri Cleanup folded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Starting disabled tri cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished disabled tri cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished DisTri Cleanup folded (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished functional verification of DisTri Cleanup (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+No subsystems found. Skipping subsystem constant report.
+
+Start clock netlist generation (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+ODU CTE is ON (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+@N: BN115 :"./src/jpeg_dht.v":746:0:746:0|Removing instance genblk1\.u_fixed_y_dc (in view: work.jpeg_dht_0000(verilog)) of type view:work.jpeg_dht_std_y_dc(verilog) because it does not drive other instances.
+@N: BN115 :"./src/jpeg_dht.v":760:0:760:0|Removing instance genblk1\.u_fixed_y_ac (in view: work.jpeg_dht_0000(verilog)) of type view:work.jpeg_dht_std_y_ac(verilog) because it does not drive other instances.
+@N: BN115 :"./src/jpeg_dht.v":774:0:774:0|Removing instance genblk1\.u_fixed_cx_dc (in view: work.jpeg_dht_0000(verilog)) of type view:work.jpeg_dht_std_cx_dc(verilog) because it does not drive other instances.
+@N: BN115 :"./src/jpeg_dht.v":788:0:788:0|Removing instance genblk1\.u_fixed_cx_ac (in view: work.jpeg_dht_0000(verilog)) of type view:work.jpeg_dht_std_cx_ac(verilog) because it does not drive other instances.
+
+ODU CTE: doing uniquification (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+ODU CTE: done uniquification (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Deleting unused ports (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Deleted 275 (313) unused ports across 22 views (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+ODU CTE: removed non-clocks (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+
+Finished clock netlist generation (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+Finished Prepass Opt Phase.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 792MB peak: 792MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:05s cputime
+# Fri Apr 14 21:54:35 2023
+
+###########################################################]

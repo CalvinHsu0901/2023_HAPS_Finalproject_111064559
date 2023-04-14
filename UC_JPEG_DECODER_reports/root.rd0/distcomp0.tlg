@@ -1,0 +1,9 @@
+@N:: Applying property .distcompmodetop with value 1 on module jpeg_input in library work
+@N:: Applying property .distcompnoprune with value 1 on module jpeg_input in library work
+@N:: Applying property .noprune with value 1 on module jpeg_input in library work
+Selecting top level module jpeg_input
+@N: CG364 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_input.v":32:7:32:16|Synthesizing module jpeg_input in library work.
+@W: CG133 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_input.v":343:10:343:20|Object data_last_q is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on jpeg_input .......
+@W: CL169 :"/home/m111/m111064559/synopsys_haps/lab/Final/src/jpeg_input.v":397:0:397:5|Pruning unused register img_precision_q[7:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on jpeg_input (CPU Time 0h:00m:00s, Memory Used current: 213MB peak: 213MB)
