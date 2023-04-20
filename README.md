@@ -6,19 +6,19 @@ The source of JEPG Decoder is from [https://github.com/ultraembedded/core_jpeg]
 
 Auto partition into two FPGA in HAPS.  
 
-2.Block Diagram:
+2.Block Diagram:  
 ![block_diagram](block_diagram.png)  
 
-3.Schematic:
+3.Schematic:  
 ![JPEG DECODER](schematic.png)  
 ua:  
-![ua_schem](ua_schem.png)
+![ua_schem](ua_schem.png)  
 ub:  
 ![ub_schem](ub_schem.png)   
 
-4.Timing Report:
+4.Timing Report:  
 ua:  
-![ua](ua1.png)
+![ua](ua1.png)  
 ub:  
 ![ub](ub1.png)  
 
