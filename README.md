@@ -18,9 +18,11 @@ ub:
 
 4.Timing Report:  
 ua:  
-![ua](ua1.png)  
+![ua1](ua1.png)  
+![ua2](ua2.png)  
 ub:  
-![ub](ub1.png)  
+![ub1](ub1.png)  
+![ub2](ub2.png) 
 
 5.Conclusion:  
 I finished the HAPS partition flow with two fpga(ua,ub) through rewriting the .tss, .pcf, .fdc to meet the JEPG decoder design without instaces assignment in .pcf.
