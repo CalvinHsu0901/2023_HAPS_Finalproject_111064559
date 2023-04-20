@@ -11,9 +11,15 @@ Auto partition into two FPGA in HAPS.
 
 3.Schematic:
 ![JPEG DECODER](schematic.png)
+ua:
+![ua_schem](ua_schem.png)
+ub:
+![ub_schem](ub_schem.png)
 
 4.Timing Report:
+ua:
 ![ua](ua1.png)
+ub:
 ![ub](ub1.png)
 
 5.Conclusion:
