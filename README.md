@@ -22,4 +22,7 @@ ua:
 ub:  
 ![ub](ub1.png)  
 
-5.Conclusion:
+5.Conclusion:  
+I finished the HAPS partition flow with two fpga(ua,ub) through rewriting the .tss, .pcf, .fdc to meet the JEPG decoder design without instaces assignment in .pcf.
+Therefore, protocompiler100 would do the partition by itself automatically.
+Also, I assigned all top module IO pins on HAPS for design verification.
